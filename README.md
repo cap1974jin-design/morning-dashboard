@@ -37,6 +37,11 @@
 `assets/` に置いた金色の「電」（ネオン風・2026-10-03 本人選定）。字形は Noto Sans JP（SIL OFL）の Black から取った。
 `favicon.svg` が原本で、PNG はそれを Chrome で書き出したもの。スマホでホーム画面に追加した時のアイコンも同じ（本人指示）：iPhone は `apple-touch-icon.png`（角丸なし・OS が丸める）、Android は `manifest.webmanifest` の `icon-192/512` と、丸く切り抜かれても欠けないよう字を縮めた `icon-maskable-512.png`。`build.py` が毎回 `site/` にコピーする。
 
+## リンクのプレビュー（LINE・X など）
+
+`build.py` の `DESCRIPTION` が説明文、`assets/og.png`（1200×630）が画像。指定が無いと LINE はページ本文の先頭（「相場すべて開く 株価指数…」）を切り取って出していた（2026-10-03 本人指摘で追加）。
+LINE はプレビューを数日キャッシュするので、変更直後は URL の末尾に `?v=2` などを付けて貼ると新しい表示になる。
+
 ## 仕組み
 
 ```

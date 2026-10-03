@@ -29,6 +29,9 @@ logger = logging.getLogger("morning_build")
 ROOT = Path(__file__).resolve().parent
 SITE_DIR = ROOT / "site"
 ASSETS_DIR = ROOT / "assets"
+SITE_URL = "https://cap1974jin-design.github.io/morning-dashboard/"
+# LINE・X などでリンクを貼った時のプレビューに出る説明文（無いと本文の先頭が切り取られる）
+DESCRIPTION = "相場とニュースを、ひと目で。日経平均・為替・米国株・金利と、各社の主要ニュースを毎時更新でまとめています。"
 MODEL = os.environ.get("MORNING_MODEL", "claude-opus-5-5")
 PICKS_PER_CATEGORY = 3
 WEEKDAYS = "月火水木金土日"
@@ -331,6 +334,17 @@ def render_page(data: dict, summary: Optional[dict]) -> str:
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>電脳NEWS</title>
 <meta name="robots" content="noindex">
+<meta name="description" content="{DESCRIPTION}">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="電脳NEWS">
+<meta property="og:title" content="電脳NEWS">
+<meta property="og:description" content="{DESCRIPTION}">
+<meta property="og:url" content="{SITE_URL}">
+<meta property="og:image" content="{SITE_URL}og.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:locale" content="ja_JP">
+<meta name="twitter:card" content="summary_large_image">
 <link rel="icon" href="favicon.svg" type="image/svg+xml">
 <link rel="icon" href="favicon-32.png" sizes="32x32" type="image/png">
 <link rel="apple-touch-icon" href="apple-touch-icon.png">
