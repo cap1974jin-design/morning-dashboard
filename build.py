@@ -152,6 +152,12 @@ def esc(s) -> str:
     return html.escape(str(s), quote=True)
 
 
+def safe_url(url: str) -> str:
+    """配信元の URL は http(s) だけ通す（javascript: などをリンクにしない）"""
+    url = str(url or "").strip()
+    return esc(url) if url.lower().startswith(("https://", "http://")) else "#"
+
+
 def fmt_value(name: str, value: float) -> str:
     digits = DECIMALS.get(name, 2 if value < 1000 else 0)
     s = f"{value:,.{digits}f}"
@@ -266,7 +272,7 @@ def render_news(news: dict, summary: Optional[dict], now: datetime) -> str:
         slides = []
         for start in range(0, len(ordered), SLIDE_SIZE):
             items = "".join(
-                f"""<a class="item{' picked' if a.get('why') or a.get('coverage', 1) >= 2 else ''}" href="{esc(a['link'])}" target="_blank" rel="noopener">
+                f"""<a class="item{' picked' if a.get('why') or a.get('coverage', 1) >= 2 else ''}" href="{safe_url(a['link'])}" target="_blank" rel="noopener">
                   <div class="item-meta"><span class="badge">{esc(a['source'])}</span>{_coverage_label(a)}<time>{_time_label(a, now)}</time></div>
                   <div class="item-title">{esc(a['title'])}</div>
                   {f'<div class="item-why">{esc(a["why"])}</div>' if a.get('why') else ''}{_also_label(a)}</a>"""
