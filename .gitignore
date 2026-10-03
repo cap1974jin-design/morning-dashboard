@@ -1,0 +1,5 @@
+site/
+data/*
+!data/morning_*.json
+__pycache__/
+.env

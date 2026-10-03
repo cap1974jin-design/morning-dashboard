@@ -1,0 +1,52 @@
+name: 電脳NEWS 毎時更新
+
+on:
+  schedule:
+    - cron: "50 * * * *"  # 毎時50分（0分は混雑で遅れやすい。50分なら遅れても次の時刻の頭には最新になる）
+  workflow_dispatch:
+
+permissions:
+  contents: write   # その日の最初の取得データをリポジトリに保存する（下の「日次の保存」）
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -r requirements.txt
+      # 要約（Claude API・有料）は使わない運用（2026-10-03 本人決定）。使う時は --no-ai を外し Secrets に ANTHROPIC_API_KEY を入れる
+      - name: 取得・ページ生成
+        run: python build.py --no-ai
+      # 公開リポジトリは60日間コミットが無いと定期実行が止まる。その日の最初の回だけデータを保存して止まらないようにする
+      - name: 日次の保存
+        run: |
+          f="data/morning_$(TZ=Asia/Tokyo date +%F).json"
+          if ! git ls-files --error-unmatch "$f" >/dev/null 2>&1; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add "$f"
+            git commit -m "取得データ $(TZ=Asia/Tokyo date +%F)"
+            git push
+          fi
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
