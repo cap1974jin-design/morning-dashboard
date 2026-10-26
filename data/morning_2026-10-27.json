@@ -1,0 +1,1363 @@
+{
+  "fetched_at": "2026-10-27T05:12:08+09:00",
+  "date": "2026-10-27",
+  "market": {
+    "株価指数": {
+      "日経225": {
+        "symbol": "^N225",
+        "price": 62693.16,
+        "change": -214.68,
+        "change_pct": -0.34,
+        "history": [
+          65018.9492,
+          65513.9883,
+          66364.2031,
+          65877.6172,
+          65481.2695,
+          66753.7188,
+          68956.7188,
+          68309.4609,
+          69946.8594,
+          70683.9766,
+          70035.7109,
+          69042.1094,
+          69030.9219,
+          67777.5234,
+          67744.2891,
+          64425.9492,
+          65324.2891,
+          64916.6992,
+          64075.4219,
+          64621.2383,
+          62907.8398,
+          62693.1602
+        ],
+        "note": ""
+      },
+      "日経225先物": {
+        "symbol": "NIY=F",
+        "price": 62800.0,
+        "change": 260.0,
+        "change_pct": 0.42,
+        "history": [
+          66595.0,
+          65895.0,
+          66230.0,
+          66810.0,
+          68270.0,
+          69855.0,
+          69935.0,
+          70585.0,
+          69560.0,
+          68137.0,
+          68940.0,
+          68345.0,
+          67955.0,
+          66480.0,
+          65480.0,
+          63720.0,
+          64560.0,
+          64770.0,
+          64830.0,
+          62450.0,
+          62540.0,
+          62800.0
+        ],
+        "note": "CME・円建て"
+      },
+      "TOPIX": {
+        "symbol": "998405.T",
+        "price": 3972.98,
+        "change": 7.17,
+        "change_pct": 0.18,
+        "history": [],
+        "note": ""
+      },
+      "S&P500": {
+        "symbol": "^GSPC",
+        "price": 7676.77,
+        "change": 53.09,
+        "change_pct": 0.7,
+        "history": [
+          7743.4102,
+          7683.6899,
+          7670.8398,
+          7651.54,
+          7666.4502,
+          7722.7202,
+          7773.9502,
+          7818.9302,
+          7801.77,
+          7765.3599,
+          7811.54,
+          7807.2402,
+          7805.4502,
+          7718.9399,
+          7744.0601,
+          7659.4399,
+          7690.73,
+          7712.5698,
+          7757.1699,
+          7663.4302,
+          7623.6802,
+          7676.77
+        ],
+        "note": ""
+      },
+      "NASDAQ": {
+        "symbol": "^IXIC",
+        "price": 26169.38,
+        "change": 214.04,
+        "change_pct": 0.82,
+        "history": [
+          27068.7207,
+          26820.3809,
+          26797.5391,
+          26861.0605,
+          26871.5996,
+          27190.8594,
+          27477.3105,
+          27599.7891,
+          27538.6895,
+          27193.3398,
+          27366.1699,
+          27245.9004,
+          27204.3809,
+          26692.8691,
+          26713.0293,
+          26140.0293,
+          26430.8906,
+          26424.8203,
+          26702.8594,
+          26008.8594,
+          25955.3398,
+          26169.3809
+        ],
+        "note": ""
+      },
+      "ダウ平均": {
+        "symbol": "^DJI",
+        "price": 52361.58,
+        "change": 146.42,
+        "change_pct": 0.28,
+        "history": [
+          51828.6211,
+          51481.5117,
+          51349.9219,
+          50906.0508,
+          50926.5586,
+          51176.9609,
+          51267.8984,
+          51521.2812,
+          51179.8711,
+          51231.6406,
+          51654.9492,
+          51850.5508,
+          51670.1016,
+          51621.4805,
+          52177.6914,
+          52002.4102,
+          51966.0312,
+          52495.8789,
+          52856.0898,
+          52867.9805,
+          52215.1602,
+          52361.5781
+        ],
+        "note": ""
+      }
+    },
+    "為替": {
+      "USD/JPY": {
+        "symbol": "USDJPY=X",
+        "price": 157.5,
+        "change": 1.0,
+        "change_pct": 0.64,
+        "history": [
+          158.811,
+          157.463,
+          157.361,
+          157.404,
+          157.558,
+          157.927,
+          157.734,
+          157.963,
+          158.296,
+          158.06,
+          158.063,
+          158.203,
+          158.52,
+          158.322,
+          157.957,
+          158.143,
+          157.806,
+          158.523,
+          158.268,
+          158.132,
+          156.494,
+          157.497
+        ],
+        "note": ""
+      },
+      "EUR/JPY": {
+        "symbol": "EURJPY=X",
+        "price": 176.04,
+        "change": 0.45,
+        "change_pct": 0.25,
+        "history": [
+          180.637,
+          179.157,
+          178.921,
+          178.51,
+          178.464,
+          177.625,
+          177.52,
+          177.184,
+          178.138,
+          177.048,
+          177.23,
+          177.256,
+          176.911,
+          177.316,
+          176.828,
+          177.323,
+          177.14,
+          177.763,
+          177.674,
+          177.657,
+          175.597,
+          176.044
+        ],
+        "note": ""
+      },
+      "GBP/JPY": {
+        "symbol": "GBPJPY=X",
+        "price": 210.17,
+        "change": 0.41,
+        "change_pct": 0.2,
+        "history": [
+          209.785,
+          208.29,
+          208.558,
+          208.247,
+          208.976,
+          208.411,
+          208.89,
+          208.801,
+          210.017,
+          208.867,
+          209.088,
+          209.42,
+          209.403,
+          209.888,
+          208.975,
+          209.878,
+          210.434,
+          210.985,
+          211.645,
+          211.801,
+          209.758,
+          210.169
+        ],
+        "note": ""
+      }
+    },
+    "金利・リスク": {
+      "米10年債利回り": {
+        "symbol": "^TNX",
+        "price": 4.99,
+        "change": -0.0,
+        "change_pct": -0.04,
+        "history": [
+          5.184,
+          5.24,
+          5.255,
+          5.293,
+          5.237,
+          5.277,
+          5.311,
+          5.269,
+          5.277,
+          5.231,
+          5.244,
+          5.24,
+          5.217,
+          5.19,
+          5.089,
+          5.098,
+          5.136,
+          5.117,
+          5.146,
+          4.953,
+          4.988,
+          4.986
+        ],
+        "note": ""
+      },
+      "VIX": {
+        "symbol": "^VIX",
+        "price": 18.44,
+        "change": -1.01,
+        "change_pct": -5.19,
+        "history": [
+          14.87,
+          16.07,
+          16.04,
+          16.34,
+          16.39,
+          15.31,
+          15.52,
+          15.01,
+          15.08,
+          15.41,
+          14.84,
+          15.21,
+          15.27,
+          16.87,
+          16.46,
+          19.99,
+          18.44,
+          17.31,
+          16.68,
+          19.03,
+          19.45,
+          18.44
+        ],
+        "note": ""
+      }
+    },
+    "暗号資産": {
+      "BTC/USD": {
+        "symbol": "BTC-USD",
+        "price": 79759.71,
+        "change": -264.3,
+        "change_pct": -0.33,
+        "history": [
+          85786.5938,
+          85557.5625,
+          83275.9297,
+          81676.3359,
+          82546.3203,
+          82912.2266,
+          83679.4688,
+          81762.5625,
+          83095.125,
+          81562.4922,
+          82141.4609,
+          81500.8047,
+          81382.1484,
+          82017.6016,
+          81853.5391,
+          82941.0,
+          84011.9688,
+          81311.8906,
+          81074.1875,
+          80790.8359,
+          80024.0078,
+          79759.7109
+        ],
+        "note": ""
+      },
+      "ETH/USD": {
+        "symbol": "ETH-USD",
+        "price": 2309.71,
+        "change": -17.21,
+        "change_pct": -0.74,
+        "history": [
+          2711.0315,
+          2697.5164,
+          2573.5273,
+          2471.9126,
+          2485.5386,
+          2504.0278,
+          2534.6992,
+          2444.3574,
+          2496.6255,
+          2418.207,
+          2440.48,
+          2419.7673,
+          2399.7991,
+          2408.7415,
+          2404.8152,
+          2446.7307,
+          2470.7661,
+          2386.1892,
+          2384.0774,
+          2355.9536,
+          2326.9202,
+          2309.71
+        ],
+        "note": ""
+      }
+    },
+    "コモディティ": {
+      "金 (Gold)": {
+        "symbol": "GC=F",
+        "price": 4026.1,
+        "change": 18.2,
+        "change_pct": 0.45,
+        "history": [
+          4321.2002,
+          4168.3999,
+          4179.7002,
+          4186.7002,
+          4202.2998,
+          4162.2998,
+          4156.7998,
+          4187.1001,
+          4140.7002,
+          4157.0,
+          4216.2998,
+          4190.6001,
+          4177.2998,
+          4107.8999,
+          4170.1001,
+          4181.1001,
+          4160.1001,
+          4142.6001,
+          4150.0,
+          4060.3999,
+          4007.8999,
+          4026.1001
+        ],
+        "note": ""
+      },
+      "原油 (WTI)": {
+        "symbol": "CL=F",
+        "price": 101.54,
+        "change": -1.73,
+        "change_pct": -1.68,
+        "history": [
+          92.41,
+          92.6,
+          89.38,
+          90.42,
+          92.87,
+          91.11,
+          89.43,
+          89.44,
+          88.28,
+          91.49,
+          91.85,
+          93.74,
+          94.14,
+          95.09,
+          97.97,
+          101.41,
+          103.66,
+          101.79,
+          97.15,
+          99.47,
+          103.27,
+          101.54
+        ],
+        "note": ""
+      }
+    }
+  },
+  "news": {
+    "マーケット": [
+      {
+        "title": "日経平均株価の指数情報・推移",
+        "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5SRDk1ZENIQUIzSUZyMHZRNHpCR2xlcTI5UTJRYXVoMDBrM3BmNndBT29vV0dDZWdQazZHb2tURGZNYy1OMU93R0kyUUZUT3VmU2VhbA?oc=5",
+        "source": "Yahoo!ファイナンス",
+        "published": "Mon, 26 Oct 2026 16:17:05 GMT",
+        "time_jst": "2026-10-27T01:17+09:00",
+        "sources": [
+          "Yahoo!ファイナンス",
+          "外為どっとコム"
+        ],
+        "coverage": 2
+      },
+      {
+        "title": "アンソロピック、ＩＰＯに向けた目論見書を提出・公開…１１月中にもナスダック市場に上場する見通し",
+        "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1ZN3djQ2FpSnhibWNzazRvX1dTeDRKUGpPMlozRm9LUG5ocmF6Q3FHOEZzRUtYbUJYYW52OUhQOG1UcE1LWW8yVDNXdDFvd2dzU1E2M3EyYUlLSzVEeWlBc3JjSVE?oc=5",
+        "source": "読売新聞",
+        "published": "Mon, 26 Oct 2026 18:37:00 GMT",
+        "time_jst": "2026-10-27T03:37+09:00",
+        "sources": [
+          "読売新聞",
+          "Impress Watch"
+        ],
+        "coverage": 2
+      },
+      {
+        "title": "不正アクセスでギフト券発行 最大５．５億円分―ギフティ：時事ドットコム",
+        "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5IdWMxSElTWnBTeFJ2TkdwWkxFRzdrUUozZUlreHJpOHFRWDhDRER1SVNpYnpkNHVNaXhEWWxvRktNQjNNLUEzSGtjd0NJNnBhNVRUVmUwTEM4WVdLcGtLX3o5RQ?oc=5",
+        "source": "時事ドットコム",
+        "published": "Mon, 26 Oct 2026 11:59:00 GMT",
+        "time_jst": "2026-10-26T20:59+09:00",
+        "sources": [
+          "時事ドットコム",
+          "Yahoo IT"
+        ],
+        "coverage": 2
+      },
+      {
+        "title": "日本の9月CPI、日銀の利上げ路線を支持する内容",
+        "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9XQXFfcS1qLVVWcU1yejNsWk5BeVFWbElOemNqNFNNZDFlZkduRjZQajVHY0thWXpGOE13ZUI0TjA2VFhRMmhOVGdaR0Njb2dPdG1CUE5KS3hzekp1Q0RKZHpSLXdMWFY0QU5icmRfTGYyaUFodmtCWVZ1cVBPOVU?oc=5",
+        "source": "ピクテ・ジャパン",
+        "published": "Mon, 26 Oct 2026 15:30:15 GMT",
+        "time_jst": "2026-10-27T00:30+09:00",
+        "sources": [
+          "ピクテ・ジャパン"
+        ],
+        "coverage": 1
+      },
+      {
+        "title": "【速報】GMOに顧客情報公開とランサム攻撃の予告",
+        "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBQUDZQU1BhakxuZVFFUlB2Y3lkTWxkRmF4b3g0ckdHcmRMMVpIajhXbTA1LVU5MnZ5OEFHeENXMWhaZTVvYTNRbHZOSQ?oc=5",
+        "source": "47NEWS",
+        "published": "Mon, 26 Oct 2026 14:46:18 GMT",
+        "time_jst": "2026-10-26T23:46+09:00",
+        "sources": [
+          "47NEWS"
+        ],
+        "coverage": 1
+      },
+      {
+        "title": "FRB、利上げ根拠強まる中でも金利据え置きに傾く理由 | The Wall Street Journal発",
+        "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE5YR3ppa1ZKTEN5X2MzVV9UTUFEMFBXc1JYeTdKTm9vbGwyQ05XR1U0N25qX19oQzg0R2JLNE9iZ1ljbWxkNG42SDU2bE4?oc=5",
+        "source": "ダイヤモンド・オンライン",
+        "published": "Mon, 26 Oct 2026 18:22:00 GMT",
+        "time_jst": "2026-10-27T03:22+09:00",
+        "sources": [
+          "ダイヤモンド・オンライン"
+        ],
+        "coverage": 1
+      },
+      {
+        "title": "【日本株】日経平均との連動性が低く、増収増益が期待される国内株",
+        "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5ZaE1NS3d2VmRvNkRjdnpMYU1ZM3ZsRlRFV3I3M19vWXF5LWJCVExTNkowdjVCQWRhX0RoNzV6dFprNF9PUzlKZ2JseDNSZHBEa2xvMnoya9IBV0FVX3lxTE5ZaE1NS3d2VmRvNkRjdnpMYU1ZM3ZsRlRFV3I3M19vWXF5LWJCVExTNkowdjVCQWRhX0RoNzV6dFprNF9PUzlKZ2JseDNSZHBEa2xvMnoyaw?oc=5",
+        "source": "マネクリ",
+        "published": "Mon, 26 Oct 2026 07:56:00 GMT",
+        "time_jst": "2026-10-26T16:56+09:00",
+        "sources": [
+          "マネクリ"
+        ],
+        "coverage": 1
+      },
+      {
+        "title": "ネオクラウド関連株下落、マスク氏が業界の「再編・破綻」予測",
+        "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNOW85MTlXSkg1MUpMNC01Y0xOWmNFOW9xU3cxSWpEaUhTTWFfaVdQSExPR1RVQ2s1aVN5Rkd0ajViTC04Rk04V21fOEEzUlhJS3psQWNHU2pxWHZvNE5QeDZHb2xyVXBnWG5IOXNVT1R4UGU2bUFBemkxenRiTXdOYXFuTTd2UQ?oc=5",
+        "source": "Reuters",
+        "published": "Mon, 26 Oct 2026 14:47:11 GMT",
+        "time_jst": "2026-10-26T23:47+09:00",
+        "sources": [
+          "Reuters"
+        ],
+        "coverage": 1
+      },
+      {
+        "title": "FRB、ECB、日銀は政策金利据え置き!?",
+        "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1jazFwb2p5enczY1ExVmlBNUFVeUU4S05sek9aU28zX19JR2J2YnRvcjBJRms4VnRITUIxZl9iZWt4RmYtUkVVODN2dnpWZU1oQ2RfVA?oc=5",
+        "source": "マネースクエア",
+        "published": "Mon, 26 Oct 2026 04:01:00 GMT",
+        "time_jst": "2026-10-26T13:01+09:00",
+        "sources": [
+          "マネースクエア"
+        ],
+        "coverage": 1
+      },
+      {
+        "title": "米ドル/円【USDJPY】：外国為替相場FXレート・チャートをリアルタイム表示",
+        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBzbWxqc1ltSU1ndEE0VElnZldUTGdyRVJpOTdKeXBsc0RDSm40dm9kLTJqaDZlOVpoR2E5eEZIX1o0bFR1SFR2N2k4WjRiTnN5dHVBTHJn?oc=5",
+        "source": "Yahoo!ファイナンス",
+        "published": "Mon, 26 Oct 2026 15:30:02 GMT",
+        "time_jst": "2026-10-27T00:30+09:00",
+        "sources": [
+          "Yahoo!ファイナンス"
+        ],
+        "coverage": 1
+      },
+      {
+        "title": "金利ある世界：利回り過去最高、発行額更新の勢い 個人向け国債に税優遇案 国模索、銀行は預金流出警戒",
+        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9hN3pOc19TbElpcEwwYkFlTGpVRnJaSWR5SDczNk93QW9yY2haMC1EanNzZTJNLUVrRWZvSnN0eXRheEFab2doZnlnaEY4N0s5VTcyMjBlandfY1NjM3dLalVEc0w1SFE2?oc=5",
+        "source": "毎日新聞",
+        "published": "Mon, 26 Oct 2026 17:01:20 GMT",
+        "time_jst": "2026-10-27T02:01+09:00",
+        "sources": [
+          "毎日新聞"
+        ],
+        "coverage": 1
+      },
+      {
+        "title": "アライアンス･バーンスタイン･米国成長株投信Dコース毎月決算型(為替ヘッジなし)予想分配金提示型の基準価額・投資信託情報",
+        "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1zckZSdHVvbExXV2xBc3Qtdk51MGlVVU9UNHZWeVRPMnRTNFJ6RTlfMjByUlZ6UEc4WGhvVURYd2RIRW5Oa0hXeXVMd0xETDdqamdPZw?oc=5",
+        "source": "Yahoo!ファイナンス",
+        "published": "Mon, 26 Oct 2026 16:56:49 GMT",
+        "time_jst": "2026-10-27T01:56+09:00",
+        "sources": [
+          "Yahoo!ファイナンス"
+        ],
+        "coverage": 1
+      },
+      {
+        "title": "フランス財政への懸念強まる 長期金利は5%超、政治不安との悪循環",
+        "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBEUGhQd2xJYzQwUkh1WkFxbzhTcDlydFRnaWYwUUxyWDBGRUI2eENBSlZBNHc5YWdCTFVITDVZWkF4V2pIWGliN1c1VmdRdTR6cmhlRlgyREE2YWFKRjRMUE5Pd1U5U28?oc=5",
+        "source": "朝日新聞",
+        "published": "Mon, 26 Oct 2026 09:59:16 GMT",
+        "time_jst": "2026-10-26T18:59+09:00",
+        "sources": [
+          "朝日新聞"
+        ],
+        "coverage": 1
+      },
+      {
+        "title": "10月26日のNY為替概況(フィスコ)",
+        "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOZ2tQYlNuUG9YSW1CQ0ZkX3RPcnZfcFFaT0lZSm1fSG04OFNrTlBuVHNPQWp1eC1meFphWGFjLTNZZkdYUlA2R0tSWTE4NHZNb1VCSFpYY0pRYWhjRWhwbjBRR1VpekphQjJVT003REJETjQxamt2amxZUktteFVnSTc2Skxnejg?oc=5",
+        "source": "Yahoo!ファイナンス",
+        "published": "Mon, 26 Oct 2026 19:20:17 GMT",
+        "time_jst": "2026-10-27T04:20+09:00",
+        "sources": [
+          "Yahoo!ファイナンス"
+        ],
+        "coverage": 1
+      },
+      {
+        "title": "明日の株式相場に向けて＝中銀ウィーク＆刮目の企業決算で正念場",
+        "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFAtd2FqT0V6WU1BNDM2YWxxTkhva1BtRjBua0dMVW5pc3RQWm1HS2ZIbGozVEFpTzlUWnUyOWlzUmNRRU5VRU4zakhCVFFPeUFZVVJZZ0tjN1VaWEJIc296bg?oc=5",
+        "source": "株探",
+        "published": "Mon, 26 Oct 2026 08:30:00 GMT",
+        "time_jst": "2026-10-26T17:30+09:00",
+        "sources": [
+          "株探"
+        ],
+        "coverage": 1
+      },
+      {
+        "title": "アジア太平洋地域の金融環境、米国金利上昇への耐性が焦点",
+        "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQUmJkRGJaZlQybFdEYjNBc2hEbmMzbXZQVGE3NW1hMWlZSmxPRm9mUUxRMVZWZ212TUM1VzNBcjVRMU9FSFVZYS12eWZ2VnUwTERGZ25tMXF0cWw2NHpQMEJqMG50MW1mLUJobmNLUndSYTlxUU4tT1RZZ0tERWtvbG4zQjJOQkF2X2hBY2I0N2JsTVdzaGktWUdtUlAtSXlNaXYwR3BySDNwSkZpRHc?oc=5",
+        "source": "Oxford Economics",
+        "published": "Mon, 26 Oct 2026 05:53:26 GMT",
+        "time_jst": "2026-10-26T14:53+09:00",
+        "sources": [
+          "Oxford Economics"
+        ],
+        "coverage": 1
+      },
+      {
+        "title": "ＰＨＰ脆弱性対応、国内のサービス停止累計１０００件超…安全確認に時間かかり４割はまだ再開できず",
+        "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFAtazZCVlo1N2d1YkRydGpaVWI3NDJULUpzVkRVYmlpRzFJNVdtdnpSbnlUMUk2ajJxU001UUFrUmkwTVRUSml0VHdoTDBMZEM0QXlDTUR0VnVtRzdvNmRTaXA2N0M?oc=5",
+        "source": "読売新聞",
+        "published": "Mon, 26 Oct 2026 11:38:00 GMT",
+        "time_jst": "2026-10-26T20:38+09:00",
+        "sources": [
+          "読売新聞"
+        ],
+        "coverage": 1
+      },
+      {
+        "title": "WESTERポイント特典付き定期預金キャンペーンの開始について|ニュースリリース",
+        "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPWUlwa2xKbWZUNk44SU14UDlVdUdXajBLS01DZzhENHhyWlFjc1JVcGE0OE1oNUpPaHlSaE1mSmJtelh2ZENnTmd3SW0tbG1kanV4ODJQaFZQZzNiQXFRYXBaWFpnWms3aW9RR0ZGQ0x5U0lnMmIyMTYtNEVHTHhPcUZuUjFaUy1B?oc=5",
+        "source": "りそなホールディングス",
+        "published": "Mon, 26 Oct 2026 05:03:21 GMT",
+        "time_jst": "2026-10-26T14:03+09:00",
+        "sources": [
+          "りそなホールディングス"
+        ],
+        "coverage": 1
+      },
+      {
+        "title": "Tracers 日経平均高配当株50インデックス(奇数月分配型)【02313241】：基準価格・投資信託情報",
+        "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1iRWo5aHlsZk1rQWZrZmxtaS1hb2t6VlY3dFpRUHRGODJsVGdMR0tkRDh4UFFwY1h4SE9fUFRaQVo2QzItVGpySkx3Uk10NmczOElhZw?oc=5",
+        "source": "Yahoo!ファイナンス",
+        "published": "Mon, 26 Oct 2026 14:33:46 GMT",
+        "time_jst": "2026-10-26T23:33+09:00",
+        "sources": [
+          "Yahoo!ファイナンス"
+        ],
+        "coverage": 1
+      },
+      {
+        "title": "【普通預金の金利】がまた利上げへ！いつから？メガバンクはどれくらい？2026年冬のボーナス定期の金利はどうなる？（LEE）",
+        "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE0weXdOQ1VfdmtvM3F0cXVZSU5xRGgzN3pTWHZWaU45RjlmTlNZMXdCWGJzTzgzVG8tSDZQLWRHQ0c5Z0dZLVdGelQ2V1lDdktJM2tSaENtd1o0WVBZYldXeTB1bmtmVXhNcTZOeFo4QjgzQllvTkhNVUN2WkZkX0U?oc=5",
+        "source": "Yahoo!ニュース",
+        "published": "Mon, 26 Oct 2026 11:50:12 GMT",
+        "time_jst": "2026-10-26T20:50+09:00",
+        "sources": [
+          "Yahoo!ニュース"
+        ],
+        "coverage": 1
+      }
+    ],
+    "国内・政治経済": [
+      {
+        "title": "新興勢力大勝、強権に終止符　１４年ぶり政権交代へ―セルビア議会選",
+        "link": "https://www.jiji.com/jc/article?k=2026102600133&g=int&m=rss",
+        "source": "時事通信",
+        "published": "2026-10-26T20:53:00+09:00",
+        "time_jst": "2026-10-26T20:53+09:00",
+        "sources": [
+          "時事通信",
+          "時事ドットコム"
+        ],
+        "coverage": 2
+      },
+      {
+        "title": "米Anthropic IPO申請書類を公開",
+        "link": "https://news.yahoo.co.jp/pickup/6600240?source=rss",
+        "source": "Yahoo経済",
+        "published": "Mon, 26 Oct 2026 15:02:06 GMT",
+        "time_jst": "2026-10-27T00:02+09:00",
+        "sources": [
+          "Yahoo経済",
+          "GIGAZINE"
+        ],
+        "coverage": 2
+      },
+      {
+        "title": "新幹線予約の個人情報17万件流出　エクスプレス予約・スマートEX",
+        "link": "http://www.asahi.com/articles/ASVBV41TFVBVOIPE017M.html?ref=rss",
+        "source": "朝日新聞",
+        "published": "2026-10-26T22:12:51+09:00",
+        "time_jst": "2026-10-26T22:12+09:00",
+        "sources": [
+          "朝日新聞",
+          "Yahoo IT"
+        ],
+        "coverage": 2
+      },
+      {
+        "title": "紹介状なしで大病院受診、生活保護でも定額負担　厚労省で案浮上",
+        "link": "http://www.asahi.com/articles/ASVBV3H12VBVUTFL009M.html?ref=rss",
+        "source": "朝日新聞",
+        "published": "2026-10-27T05:00:00+09:00",
+        "time_jst": "2026-10-27T05:00+09:00",
+        "sources": [
+          "朝日新聞"
+        ],
+        "coverage": 1
+      },
+      {
+        "title": "｢トランプ氏は高市氏に力がないと安心している｣の声も…《中間選挙》で暴走しそうな超大国に頼る日本の賭けは誤り？",
+        "link": "https://toyokeizai.net/articles/-/962551?utm_source=rss&utm_medium=http&utm_campaign=link_back",
+        "source": "東洋経済",
+        "published": "Tue, 27 Oct 2026 05:00:00 +0900",
+        "time_jst": "2026-10-27T05:00+09:00",
+        "sources": [
+          "東洋経済"
+        ],
+        "coverage": 1
+      },
+      {
+        "title": "NTTグループ、足掛け9年の巨大再編を総仕上げ！2.5兆円の巨額データセンター投資にまい進へ…ドコモ・データの完全統合で形成された「3つの事業の核」とは？ - 大NTT 巨大再編の賭け",
+        "link": "https://diamond.jp/articles/-/401942",
+        "source": "ダイヤモンド",
+        "published": "Tue, 27 Oct 2026 04:55:00 +0900",
+        "time_jst": "2026-10-27T04:55+09:00",
+        "sources": [
+          "ダイヤモンド"
+        ],
+        "coverage": 1
+      },
+      {
+        "title": "ロシアで拘束された北海道新聞記者、日本大使館員が領事面会…健康状態に問題なし",
+        "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1KSGM0TTg3SkR6dXJMdU9lRXNZYTFUd2J1X2RUWGFzZHF5bm0xaDlvSDBsM0tldklLZWtKRlQydlhzUHdvbGF5dkxqTXNfYTRvVU5DNFoxbEtDdGk1UnRhaVRieVVTdw?oc=5",
+        "source": "読売新聞",
+        "published": "Mon, 26 Oct 2026 14:02:00 GMT",
+        "time_jst": "2026-10-26T23:02+09:00",
+        "sources": [
+          "読売新聞"
+        ],
+        "coverage": 1
+      },
+      {
+        "title": "ガソリン補助、毎月５円縮小　電気代支援再開、自民提言案",
+        "link": "https://www.jiji.com/jc/article?k=2026102600880&g=pol&m=rss",
+        "source": "時事通信",
+        "published": "2026-10-26T21:28:00+09:00",
+        "time_jst": "2026-10-26T21:28+09:00",
+        "sources": [
+          "時事通信"
+        ],
+        "coverage": 1
+      },
+      {
+        "title": "すごいベンチャー【49】ニューラルポート／目の動きから脳疲労を測定",
+        "link": "https://toyokeizai.net/articles/-/961764?utm_source=rss&utm_medium=http&utm_campaign=link_back",
+        "source": "東洋経済",
+        "published": "Tue, 27 Oct 2026 05:00:00 +0900",
+        "time_jst": "2026-10-27T05:00+09:00",
+        "sources": [
+          "東洋経済"
+        ],
+        "coverage": 1
+      },
+      {
+        "title": "「投資家から余計な指摘を増やすだけ」役員の慎重論にどう対処する？資本コスト経営で情報開示までに直面する「4つの壁」とその処方箋 - 事例で読み解く！経営・ビジネスの深層",
+        "link": "https://diamond.jp/articles/-/401817",
+        "source": "ダイヤモンド",
+        "published": "Tue, 27 Oct 2026 04:50:00 +0900",
+        "time_jst": "2026-10-27T04:50+09:00",
+        "sources": [
+          "ダイヤモンド"
+        ],
+        "coverage": 1
+      },
+      {
+        "title": "福島放送、知事選挙の投票終了前に「当確」速報…「投票行動に影響を及ぼしかねない対応」と謝罪",
+        "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9WWmRPT3otSnY1R21PLUVuRmlaSk1TY21KOFoyWlhFRGN1bmVodzcwM0VjVGtmSzJKMmU2VWFSNDNfWFRMQWNPMi1vNkhVc2lVamh2SkxJb1hQR3ktTnNMUHE0OUt3UQ?oc=5",
+        "source": "読売新聞",
+        "published": "Mon, 26 Oct 2026 10:10:00 GMT",
+        "time_jst": "2026-10-26T19:10+09:00",
+        "sources": [
+          "読売新聞"
+        ],
+        "coverage": 1
+      },
+      {
+        "title": "豪生保 第一ライフによる買収拒否",
+        "link": "https://news.yahoo.co.jp/pickup/6600234?source=rss",
+        "source": "Yahoo経済",
+        "published": "Mon, 26 Oct 2026 13:03:11 GMT",
+        "time_jst": "2026-10-26T22:03+09:00",
+        "sources": [
+          "Yahoo経済"
+        ],
+        "coverage": 1
+      },
+      {
+        "title": "市営住宅で外壁のコンクリートが落下、中学生の頭部に接触　北九州市",
+        "link": "http://www.asahi.com/articles/ASVBV44VWVBVTIPE020M.html?ref=rss",
+        "source": "朝日新聞",
+        "published": "2026-10-26T21:50:00+09:00",
+        "time_jst": "2026-10-26T21:50+09:00",
+        "sources": [
+          "朝日新聞"
+        ],
+        "coverage": 1
+      },
+      {
+        "title": "日本政府によると、邦人の健康状態には問題がない",
+        "link": "https://www.jiji.com/jc/article?k=2026102601137&g=flash&m=rss",
+        "source": "時事通信",
+        "published": "2026-10-26T23:02:00+09:00",
+        "time_jst": "2026-10-26T23:02+09:00",
+        "sources": [
+          "時事通信"
+        ],
+        "coverage": 1
+      },
+      {
+        "title": "すごいベンチャー【48】GramEye／細菌を特定する検査を自動化",
+        "link": "https://toyokeizai.net/articles/-/961763?utm_source=rss&utm_medium=http&utm_campaign=link_back",
+        "source": "東洋経済",
+        "published": "Tue, 27 Oct 2026 05:00:00 +0900",
+        "time_jst": "2026-10-27T05:00+09:00",
+        "sources": [
+          "東洋経済"
+        ],
+        "coverage": 1
+      },
+      {
+        "title": "関西電力が「電事連トップの座」を熱望した裏事情、原発安定稼働の“優等生”が故ににじみ出る焦りと事実上の“関電救済策”の中身 - エネルギー動乱",
+        "link": "https://diamond.jp/articles/-/401910",
+        "source": "ダイヤモンド",
+        "published": "Tue, 27 Oct 2026 04:45:00 +0900",
+        "time_jst": "2026-10-27T04:45+09:00",
+        "sources": [
+          "ダイヤモンド"
+        ],
+        "coverage": 1
+      },
+      {
+        "title": "週間天気 28日は北海道は雪で気温急降下 30日は再び広く雨 31日は気温上昇(気象予報士 小野 聡子)",
+        "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5ObjJES01UcU9rWFpaX2U1THZ4cE43bk9EVmlyelBKUWs3TDlfYVZGZHpiYllPeHUxOEN3bU0yb291alowZnMxT05NTU9DRTZmTGZ1TmljX0hSTVhwUmZjMW1HQ0lEdw?oc=5",
+        "source": "tenki.jp",
+        "published": "Mon, 26 Oct 2026 07:28:30 GMT",
+        "time_jst": "2026-10-26T16:28+09:00",
+        "sources": [
+          "tenki.jp"
+        ],
+        "coverage": 1
+      },
+      {
+        "title": "退職倒産が最多 中小企業どう対応",
+        "link": "https://news.yahoo.co.jp/pickup/6600166?source=rss",
+        "source": "Yahoo経済",
+        "published": "Mon, 26 Oct 2026 03:49:35 GMT",
+        "time_jst": "2026-10-26T12:49+09:00",
+        "sources": [
+          "Yahoo経済"
+        ],
+        "coverage": 1
+      },
+      {
+        "title": "市立体育館で学生が感電して入院　施設側が誤った延長コード貸し出す",
+        "link": "http://www.asahi.com/articles/ASVBV42JNVBVTIPE025M.html?ref=rss",
+        "source": "朝日新聞",
+        "published": "2026-10-26T21:35:00+09:00",
+        "time_jst": "2026-10-26T21:35+09:00",
+        "sources": [
+          "朝日新聞"
+        ],
+        "coverage": 1
+      },
+      {
+        "title": "小泉元首相「福田氏いてこそ」　大連立交渉の小沢氏「今も感銘」",
+        "link": "https://www.jiji.com/jc/article?k=2026102600933&g=pol&m=rss",
+        "source": "時事通信",
+        "published": "2026-10-26T20:12:00+09:00",
+        "time_jst": "2026-10-26T20:12+09:00",
+        "sources": [
+          "時事通信"
+        ],
+        "coverage": 1
+      }
+    ],
+    "国際・地政学": [
+      {
+        "title": "再選も、厳しい政治環境　分断深刻化、議会とはねじれ―ブラジル大統領選",
+        "link": "https://www.jiji.com/jc/article?k=2026102600946&g=int&m=rss",
+        "source": "時事通信",
+        "published": "2026-10-26T20:36:00+09:00",
+        "time_jst": "2026-10-26T20:36+09:00",
+        "sources": [
+          "時事通信",
+          "BBC日本語",
+          "CNN",
+          "47NEWS"
+        ],
+        "coverage": 4
+      },
+      {
+        "title": "マスク氏、ウクライナのスターリンク接続をスペースXが制限したと説明　サービスは復旧",
+        "link": "https://www.bbc.com/japanese/articles/c6y0e9epklgxo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC日本語",
+        "published": "Mon, 26 Oct 2026 09:10:21 GMT",
+        "time_jst": "2026-10-26T18:10+09:00",
+        "sources": [
+          "BBC日本語",
+          "BBC"
+        ],
+        "coverage": 2
+      },
+      {
+        "title": "声優のエリック・バウザさん、46歳で死去　バッグス・バニーなど「ルーニー・テューンズ」のキャラクターたちを演じる",
+        "link": "https://www.cnn.co.jp/showbiz/35253983.html?ref=rss",
+        "source": "CNN",
+        "published": "2026-10-26T21:27:00+09:00",
+        "time_jst": "2026-10-26T21:27+09:00",
+        "sources": [
+          "CNN"
+        ],
+        "coverage": 1
+      },
+      {
+        "title": "中国が福田氏評価 高市政権は批判",
+        "link": "https://news.yahoo.co.jp/pickup/6600236?source=rss",
+        "source": "Yahoo国際",
+        "published": "Mon, 26 Oct 2026 13:56:14 GMT",
+        "time_jst": "2026-10-26T22:56+09:00",
+        "sources": [
+          "Yahoo国際"
+        ],
+        "coverage": 1
+      },
+      {
+        "title": "セルビア総選挙、学生主導の抗議運動が与党倒す　前大統領は敗北認める",
+        "link": "https://www.bbc.com/japanese/articles/c820vdyddwk4o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC日本語",
+        "published": "Mon, 26 Oct 2026 02:55:46 GMT",
+        "time_jst": "2026-10-26T11:55+09:00",
+        "sources": [
+          "BBC日本語"
+        ],
+        "coverage": 1
+      },
+      {
+        "title": "ゴッホが描いた「星月夜」の光景、実は本物の天体配列だった？　新研究で判明",
+        "link": "https://www.cnn.co.jp/fringe/35253982.html?ref=rss",
+        "source": "CNN",
+        "published": "2026-10-26T19:45:00+09:00",
+        "time_jst": "2026-10-26T19:45+09:00",
+        "sources": [
+          "CNN"
+        ],
+        "coverage": 1
+      },
+      {
+        "title": "米中間選挙投票まで1週間 民主、下院奪還に現実味 トランプ氏遊説行脚も支持率過去最低",
+        "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1ReXRIT3lGRDBPNGxQOFNCWW9qdm9WZUJxYjVaOXdfRjIyeFRPZkNaNlJ0X1JPSUpLMTcxY21CTnFFbUdvOEVfWnVZVEYxcFplSDVEM1E5RURNUklPS3JHemRkVldlcjJXMDRxZlBQOUY1Q3g3T1E?oc=5",
+        "source": "産経ニュース",
+        "published": "Mon, 26 Oct 2026 11:59:28 GMT",
+        "time_jst": "2026-10-26T20:59+09:00",
+        "sources": [
+          "産経ニュース"
+        ],
+        "coverage": 1
+      },
+      {
+        "title": "福田元首相が死去 中国が哀悼の意",
+        "link": "https://news.yahoo.co.jp/pickup/6600203?source=rss",
+        "source": "Yahoo国際",
+        "published": "Mon, 26 Oct 2026 08:50:33 GMT",
+        "time_jst": "2026-10-26T17:50+09:00",
+        "sources": [
+          "Yahoo国際"
+        ],
+        "coverage": 1
+      },
+      {
+        "title": "10月の夜空を彩る「ハンターズムーン」、土星も見られる可能性も",
+        "link": "https://www.cnn.co.jp/fringe/35253965.html?ref=rss",
+        "source": "CNN",
+        "published": "2026-10-26T11:15:00+09:00",
+        "time_jst": "2026-10-26T11:15+09:00",
+        "sources": [
+          "CNN"
+        ],
+        "coverage": 1
+      },
+      {
+        "title": "共産党「中央」の処分 すでに14人資格喪失 過去最多の可能性 党内統治強化へ",
+        "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9LdFNRcHl2UWw3SHFESDhmX0p2bUNoLURqYWM1MTg2dmdCM3VYX0NPNGhYcThQV1dUSm9kUU9jWHZESmYtZTFac1E1dnlDcFBhelFtOGUzeEFCRXVoWVc1UVdVSzNFSXB2UFk4UlFUcl9UVWZqNWc?oc=5",
+        "source": "産経ニュース",
+        "published": "Mon, 26 Oct 2026 11:00:34 GMT",
+        "time_jst": "2026-10-26T20:00+09:00",
+        "sources": [
+          "産経ニュース"
+        ],
+        "coverage": 1
+      },
+      {
+        "title": "PHPサイバーセキュリティー危機、知られざる英雄になったエンジニアの話",
+        "link": "https://www.bbc.com/japanese/articles/ckvg7p23pwy8o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC日本語",
+        "published": "Mon, 26 Oct 2026 09:41:22 GMT",
+        "time_jst": "2026-10-26T18:41+09:00",
+        "sources": [
+          "BBC日本語"
+        ],
+        "coverage": 1
+      },
+      {
+        "title": "イスラエル首相が総選挙前のイラン共同攻撃をトランプ大統領に要請か アメリカ軍は命令から「96時間以内」に作戦開始可能とCNN報道（FNNプライムオンライン（フジテレビ系））",
+        "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9SNG5EVlgwTENNQmtLU0VtU2RrQXhfRVVlMHJFc1BlRmhYaVNJRTFtNjQtSlRPQVh0TEVWQ2N6Sng5ZzREcUhMMFVZb0ZkWUtsWVJBeExYOVVpbUlnb3d2dk5JOXBmelpnT3hBeHd0UTUzeGk1TmhfUTIxamhvU0k?oc=5",
+        "source": "Yahoo!ニュース",
+        "published": "Mon, 26 Oct 2026 15:47:15 GMT",
+        "time_jst": "2026-10-27T00:47+09:00",
+        "sources": [
+          "Yahoo!ニュース"
+        ],
+        "coverage": 1
+      },
+      {
+        "title": "フーシ派 サウジ石油施設など攻撃",
+        "link": "https://news.yahoo.co.jp/pickup/6600192?source=rss",
+        "source": "Yahoo国際",
+        "published": "Mon, 26 Oct 2026 07:23:36 GMT",
+        "time_jst": "2026-10-26T16:23+09:00",
+        "sources": [
+          "Yahoo国際"
+        ],
+        "coverage": 1
+      },
+      {
+        "title": "ヴェネズエラの反体制派指導者マチャド氏、10カ月ぶり帰国　ノーベル平和賞受賞で出国以来",
+        "link": "https://www.bbc.com/japanese/articles/cwnv0g93d51zo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC日本語",
+        "published": "Mon, 26 Oct 2026 02:58:11 GMT",
+        "time_jst": "2026-10-26T11:58+09:00",
+        "sources": [
+          "BBC日本語"
+        ],
+        "coverage": 1
+      },
+      {
+        "title": "トランプ政権、カリフォルニア州の中間選挙開票プロセスに介入試み　判事らが強い疑念表明",
+        "link": "https://www.cnn.co.jp/usa/35253954.html?ref=rss",
+        "source": "CNN",
+        "published": "2026-10-26T09:17:00+09:00",
+        "time_jst": "2026-10-26T09:17+09:00",
+        "sources": [
+          "CNN"
+        ],
+        "coverage": 1
+      },
+      {
+        "title": "SHEIN 米FTCと1億ドルで和解へ",
+        "link": "https://news.yahoo.co.jp/pickup/6600173?source=rss",
+        "source": "Yahoo国際",
+        "published": "Mon, 26 Oct 2026 03:46:53 GMT",
+        "time_jst": "2026-10-26T12:46+09:00",
+        "sources": [
+          "Yahoo国際"
+        ],
+        "coverage": 1
+      },
+      {
+        "title": "フランス全土で再び大規模な抗議デモ、1300人以上逮捕　参加者と警官らが衝突",
+        "link": "https://www.bbc.com/japanese/articles/c9x28km27gklo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC日本語",
+        "published": "Mon, 26 Oct 2026 06:28:33 GMT",
+        "time_jst": "2026-10-26T15:28+09:00",
+        "sources": [
+          "BBC日本語"
+        ],
+        "coverage": 1
+      },
+      {
+        "title": "ネタニヤフ氏の最有力対抗馬と目されるガディ・アイゼンコット氏、どんな人物なのか　イスラエル総選挙",
+        "link": "https://www.cnn.co.jp/world/35253943.html?ref=rss",
+        "source": "CNN",
+        "published": "2026-10-25T17:40:00+09:00",
+        "time_jst": "2026-10-25T17:40+09:00",
+        "sources": [
+          "CNN"
+        ],
+        "coverage": 1
+      },
+      {
+        "title": "北朝鮮が軍事境界線に自走砲3両 韓国側を向く砲口 武力誇示か",
+        "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE01VjFVTEJNQnd4Y0lxT2hnbk94bGgxVWQwXzVqQU5QX20zaEFpLTFyQnNWc3dnYkF2Z19xSmQydHc3TXZPNk9rdlNpZ2toRlJXM2VsSGZEUHVzSkVRNkE3N1BRTlBhNHVldWdRcVV2NzdCYzVYX2xYS1F3?oc=5",
+        "source": "テレ朝NEWS",
+        "published": "Mon, 26 Oct 2026 08:59:21 GMT",
+        "time_jst": "2026-10-26T17:59+09:00",
+        "sources": [
+          "テレ朝NEWS"
+        ],
+        "coverage": 1
+      },
+      {
+        "title": "英ジャガイモ生産 害虫被害が拡大",
+        "link": "https://news.yahoo.co.jp/pickup/6600162?source=rss",
+        "source": "Yahoo国際",
+        "published": "Mon, 26 Oct 2026 02:14:14 GMT",
+        "time_jst": "2026-10-26T11:14+09:00",
+        "sources": [
+          "Yahoo国際"
+        ],
+        "coverage": 1
+      }
+    ],
+    "テック": [
+      {
+        "title": "楽天トラベル 不正アクセスで氏名やクレカ番号の一部など流出",
+        "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5fd3VYQWFxaVZnWlNVVXZDWUI1TVdxSUYxZ0VaWVo1RTgyTWRaTVE3bDhWcmtBYWxpcEJJSW05YWhYTmZBOTZZS0FzbzJYYnR4a1Y0d2VYNkxRTDB3M1kw?oc=5",
+        "source": "NHKニュース",
+        "published": "Mon, 26 Oct 2026 15:32:28 GMT",
+        "time_jst": "2026-10-27T00:32+09:00",
+        "sources": [
+          "NHKニュース",
+          "Yahoo IT",
+          "Impress Watch"
+        ],
+        "coverage": 3
+      },
+      {
+        "title": "ユミルリンク、不正アクセスで情報漏えい件数を最大約5163万件と発表。対象が50システムに拡大",
+        "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFA0QjNab3R0MFdSbFl1cmd2d1RuY1RJbWhXMnFRVThtb05xQmt5cmRYWHlaYksxa0oyVjRVZm9RejJGcTlvNXpxVFRwcUl1SjR2ZlFrMDdoY0t4U1ZQdl9McUlfZ3BUdjhBMmU0?oc=5",
+        "source": "INTERNET Watch",
+        "published": "Mon, 26 Oct 2026 12:17:54 GMT",
+        "time_jst": "2026-10-26T21:17+09:00",
+        "sources": [
+          "INTERNET Watch",
+          "Yahoo IT",
+          "ITmedia"
+        ],
+        "coverage": 3
+      },
+      {
+        "title": "新iPad mini登場　有機ELディスプレイ搭載で119800円から",
+        "link": "https://www.watch.impress.co.jp/docs/news/2151327.html",
+        "source": "Impress Watch",
+        "published": "2026-10-27T00:56:29+09:00",
+        "time_jst": "2026-10-27T00:56+09:00",
+        "sources": [
+          "Impress Watch",
+          "ITmedia"
+        ],
+        "coverage": 2
+      },
+      {
+        "title": "「Google Fitbit Edge」先行レビュー：画面付き、Google マップ対応の実力は？　Fitbit Airとの1万円差を検証する",
+        "link": "https://www.itmedia.co.jp/mobile/articles/2610/27/news040.html",
+        "source": "ITmedia",
+        "published": "Tue, 27 Oct 2026 02:00:00 +0900",
+        "time_jst": "2026-10-27T02:00+09:00",
+        "sources": [
+          "ITmedia"
+        ],
+        "coverage": 1
+      },
+      {
+        "title": "2万6800円で買えるGoogle製スマートウォッチ「Google Fitbit Edge」の各種機能を使ってみたよレビュー",
+        "link": "https://gigazine.net/news/20261027-google-fitbit-edge-short-review/",
+        "source": "GIGAZINE",
+        "published": "Tue, 27 Oct 2026 02:00:00 +0900",
+        "time_jst": "2026-10-27T02:00+09:00",
+        "sources": [
+          "GIGAZINE"
+        ],
+        "coverage": 1
+      },
+      {
+        "title": "マンガの原稿を落とさないようにできる無料のスケジュール管理ソフト「Otosazu」、クリスタと連動してページ工程ごとに作業時間を計測・記録可能",
+        "link": "https://gigazine.net/news/20261026-otosazu/",
+        "source": "GIGAZINE",
+        "published": "Mon, 26 Oct 2026 23:00:00 +0900",
+        "time_jst": "2026-10-26T23:00+09:00",
+        "sources": [
+          "GIGAZINE"
+        ],
+        "coverage": 1
+      },
+      {
+        "title": "「iPhone Duo」は買いか見送りか――賛否　そんな中、登場した「iPad mini」は誰向け？",
+        "link": "https://www.itmedia.co.jp/mobile/articles/2610/27/news042.html",
+        "source": "ITmedia",
+        "published": "Tue, 27 Oct 2026 00:15:00 +0900",
+        "time_jst": "2026-10-27T00:15+09:00",
+        "sources": [
+          "ITmedia"
+        ],
+        "coverage": 1
+      },
+      {
+        "title": "トランプ大統領の義理の息子ジャレッド・クシュナーが中東の政府要人から多額の金を受け取れる立場にあったとの報道、当人は「妄想」と反論",
+        "link": "https://gigazine.net/news/20261026-jared-kushner-report/",
+        "source": "GIGAZINE",
+        "published": "Mon, 26 Oct 2026 22:00:00 +0900",
+        "time_jst": "2026-10-26T22:00+09:00",
+        "sources": [
+          "GIGAZINE"
+        ],
+        "coverage": 1
+      },
+      {
+        "title": "神社キャッシュレス「おまいりPay」、お賽銭に対応",
+        "link": "https://www.watch.impress.co.jp/docs/news/2151261.html",
+        "source": "Impress Watch",
+        "published": "2026-10-26T20:30:00+09:00",
+        "time_jst": "2026-10-26T20:30+09:00",
+        "sources": [
+          "Impress Watch"
+        ],
+        "coverage": 1
+      },
+      {
+        "title": "四川麻婆だれがどっぷりと揚げなす＆チキンに染みているドムドムの「麻婆なすチーズチキンバーガー」を食べてきた",
+        "link": "https://gigazine.net/news/20261026-domdomhamburger-mapo-egg-plant/",
+        "source": "GIGAZINE",
+        "published": "Mon, 26 Oct 2026 21:30:00 +0900",
+        "time_jst": "2026-10-26T21:30+09:00",
+        "sources": [
+          "GIGAZINE"
+        ],
+        "coverage": 1
+      },
+      {
+        "title": "iPhoneからPDFファイルを開くだけでハッキングすることに成功",
+        "link": "https://gigazine.net/news/20261026-iphone-pdf-hacking/",
+        "source": "GIGAZINE",
+        "published": "Mon, 26 Oct 2026 21:00:00 +0900",
+        "time_jst": "2026-10-26T21:00+09:00",
+        "sources": [
+          "GIGAZINE"
+        ],
+        "coverage": 1
+      },
+      {
+        "title": "ふるさとチョイス、返礼品事業者や自治体向けシステムを再開",
+        "link": "https://www.watch.impress.co.jp/docs/news/2151242.html",
+        "source": "Impress Watch",
+        "published": "2026-10-26T18:10:00+09:00",
+        "time_jst": "2026-10-26T18:10+09:00",
+        "sources": [
+          "Impress Watch"
+        ],
+        "coverage": 1
+      },
+      {
+        "title": "Joshin 600万件超の情報漏えいか",
+        "link": "https://news.yahoo.co.jp/pickup/6600214?source=rss",
+        "source": "Yahoo IT",
+        "published": "Mon, 26 Oct 2026 09:47:14 GMT",
+        "time_jst": "2026-10-26T18:47+09:00",
+        "sources": [
+          "Yahoo IT"
+        ],
+        "coverage": 1
+      },
+      {
+        "title": "PHPの更新を適用していないサイトからビットコインを盗む賞金付きハッキングチャレンジが開催され19時間で突破される",
+        "link": "https://gigazine.net/news/20261026-steal-my-bitcoin/",
+        "source": "GIGAZINE",
+        "published": "Mon, 26 Oct 2026 20:00:00 +0900",
+        "time_jst": "2026-10-26T20:00+09:00",
+        "sources": [
+          "GIGAZINE"
+        ],
+        "coverage": 1
+      },
+      {
+        "title": "JALと福岡空港、貨物搬送にレベル4無人運転カー 西日本初",
+        "link": "https://www.watch.impress.co.jp/docs/news/2151251.html",
+        "source": "Impress Watch",
+        "published": "2026-10-26T17:48:47+09:00",
+        "time_jst": "2026-10-26T17:48+09:00",
+        "sources": [
+          "Impress Watch"
+        ],
+        "coverage": 1
+      },
+      {
+        "title": "GMOに攻撃 当初は約80億円要求",
+        "link": "https://news.yahoo.co.jp/pickup/6600222?source=rss",
+        "source": "Yahoo IT",
+        "published": "Mon, 26 Oct 2026 10:28:04 GMT",
+        "time_jst": "2026-10-26T19:28+09:00",
+        "sources": [
+          "Yahoo IT"
+        ],
+        "coverage": 1
+      },
+      {
+        "title": "スマホに挿すだけで立体音響を録音できるソニーのマイク「ECM-AX10」、わずか24gの小型空間オーディオマイクの見た目はこんな感じ",
+        "link": "https://gigazine.net/news/20261026-sony-microphone-ecm-ax10-appearance/",
+        "source": "GIGAZINE",
+        "published": "Mon, 26 Oct 2026 19:00:00 +0900",
+        "time_jst": "2026-10-26T19:00+09:00",
+        "sources": [
+          "GIGAZINE"
+        ],
+        "coverage": 1
+      },
+      {
+        "title": "関西みらい銀行の定期預金でWESTERポイント付与　JR西日本提携第1弾",
+        "link": "https://www.watch.impress.co.jp/docs/news/2151240.html",
+        "source": "Impress Watch",
+        "published": "2026-10-26T17:07:40+09:00",
+        "time_jst": "2026-10-26T17:07+09:00",
+        "sources": [
+          "Impress Watch"
+        ],
+        "coverage": 1
+      },
+      {
+        "title": "Netflix会員 アプリ利用頻度低下",
+        "link": "https://news.yahoo.co.jp/pickup/6600167?source=rss",
+        "source": "Yahoo IT",
+        "published": "Mon, 26 Oct 2026 03:26:33 GMT",
+        "time_jst": "2026-10-26T12:26+09:00",
+        "sources": [
+          "Yahoo IT"
+        ],
+        "coverage": 1
+      },
+      {
+        "title": "タイムズカー流出で顧客らが損害賠償求め運営会社提訴へ　サイト開設の弁護士が記者会見",
+        "link": "https://www.itmedia.co.jp/news/article/2610/26/2000002598/",
+        "source": "ITmedia",
+        "published": "Mon, 26 Oct 2026 18:58:14 +0900",
+        "time_jst": "2026-10-26T18:58+09:00",
+        "sources": [
+          "ITmedia"
+        ],
+        "coverage": 1
+      }
+    ]
+  }
+}
