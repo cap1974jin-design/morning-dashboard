@@ -1,0 +1,1356 @@
+{
+  "fetched_at": "2026-11-15T04:31:44+09:00",
+  "date": "2026-11-15",
+  "market": {
+    "株価指数": {
+      "日経225": {
+        "symbol": "^N225",
+        "price": 61142.35,
+        "change": 322.99,
+        "change_pct": 0.53,
+        "history": [
+          67744.2891,
+          64425.9492,
+          65324.2891,
+          64916.6992,
+          64075.4219,
+          64621.2383,
+          62907.8398,
+          62693.1602,
+          62189.6484,
+          63268.3711,
+          63954.1914,
+          64659.4688,
+          63290.1094,
+          63081.8594,
+          62188.6289,
+          61077.8984,
+          57434.7695,
+          58775.5,
+          60459.5781,
+          61248.5898,
+          60819.3594,
+          61142.3516
+        ],
+        "note": ""
+      },
+      "日経225先物": {
+        "symbol": "NIY=F",
+        "price": 61065.0,
+        "change": -133.0,
+        "change_pct": -0.22,
+        "history": [
+          65480.0,
+          63720.0,
+          64560.0,
+          64770.0,
+          64830.0,
+          62450.0,
+          62540.0,
+          62705.0,
+          64335.0,
+          64880.0,
+          64770.0,
+          62660.0,
+          62700.0,
+          63840.0,
+          63055.0,
+          57165.0,
+          58145.0,
+          60940.0,
+          59910.0,
+          61885.0,
+          61198.0,
+          61065.0
+        ],
+        "note": "CME・円建て"
+      },
+      "S&P500": {
+        "symbol": "^GSPC",
+        "price": 7561.67,
+        "change": -30.73,
+        "change_pct": -0.4,
+        "history": [
+          7744.0601,
+          7659.4399,
+          7690.73,
+          7712.5698,
+          7757.1699,
+          7663.4302,
+          7623.6802,
+          7676.77,
+          7722.6001,
+          7743.98,
+          7720.3901,
+          7580.0698,
+          7541.3999,
+          7568.9199,
+          7688.6201,
+          7353.73,
+          7376.8599,
+          7549.9399,
+          7520.9302,
+          7619.3799,
+          7592.3999,
+          7561.6699
+        ],
+        "note": ""
+      },
+      "NASDAQ": {
+        "symbol": "^IXIC",
+        "price": 25136.27,
+        "change": -229.82,
+        "change_pct": -0.91,
+        "history": [
+          26713.0293,
+          26140.0293,
+          26430.8906,
+          26424.8203,
+          26702.8594,
+          26008.8594,
+          25955.3398,
+          26169.3809,
+          26477.8105,
+          26549.8496,
+          26184.7207,
+          25437.0,
+          25164.3105,
+          25372.0098,
+          25736.5098,
+          24315.0,
+          24579.4297,
+          25253.1406,
+          25065.8691,
+          25466.1895,
+          25366.0898,
+          25136.2695
+        ],
+        "note": ""
+      },
+      "ダウ平均": {
+        "symbol": "^DJI",
+        "price": 52347.55,
+        "change": 50.46,
+        "change_pct": 0.1,
+        "history": [
+          52177.6914,
+          52002.4102,
+          51966.0312,
+          52495.8789,
+          52856.0898,
+          52867.9805,
+          52215.1602,
+          52361.5781,
+          52377.5703,
+          52475.1016,
+          52342.5586,
+          51770.3086,
+          51983.9805,
+          51786.7188,
+          53356.1211,
+          51523.0586,
+          51285.7305,
+          52389.75,
+          52231.8906,
+          52486.4883,
+          52297.0898,
+          52347.5508
+        ],
+        "note": ""
+      }
+    },
+    "為替": {
+      "USD/JPY": {
+        "symbol": "USDJPY=X",
+        "price": 159.88,
+        "change": 0.14,
+        "change_pct": 0.09,
+        "history": [
+          157.957,
+          158.143,
+          157.806,
+          158.523,
+          158.268,
+          158.132,
+          156.494,
+          156.83,
+          157.528,
+          157.993,
+          157.833,
+          157.804,
+          157.677,
+          157.915,
+          158.469,
+          158.357,
+          157.498,
+          158.292,
+          157.983,
+          158.705,
+          159.734,
+          159.875
+        ],
+        "note": ""
+      },
+      "EUR/JPY": {
+        "symbol": "EURJPY=X",
+        "price": 176.66,
+        "change": -0.56,
+        "change_pct": -0.32,
+        "history": [
+          176.828,
+          177.323,
+          177.14,
+          177.763,
+          177.674,
+          177.657,
+          175.597,
+          175.917,
+          176.017,
+          175.792,
+          176.063,
+          176.472,
+          175.918,
+          176.71,
+          177.595,
+          177.909,
+          176.821,
+          176.448,
+          177.295,
+          177.253,
+          177.223,
+          176.659
+        ],
+        "note": ""
+      },
+      "GBP/JPY": {
+        "symbol": "GBPJPY=X",
+        "price": 211.54,
+        "change": -0.53,
+        "change_pct": -0.25,
+        "history": [
+          208.975,
+          209.878,
+          210.434,
+          210.985,
+          211.645,
+          211.801,
+          209.758,
+          209.792,
+          210.189,
+          210.197,
+          210.32,
+          211.1,
+          211.056,
+          211.752,
+          212.866,
+          213.417,
+          211.89,
+          211.473,
+          212.348,
+          211.842,
+          212.065,
+          211.536
+        ],
+        "note": ""
+      }
+    },
+    "金利・リスク": {
+      "米10年債利回り": {
+        "symbol": "^TNX",
+        "price": 5.15,
+        "change": 0.05,
+        "change_pct": 1.0,
+        "history": [
+          5.089,
+          5.098,
+          5.136,
+          5.117,
+          5.146,
+          4.953,
+          4.988,
+          4.986,
+          4.993,
+          5.045,
+          4.989,
+          4.929,
+          4.894,
+          4.952,
+          4.894,
+          4.837,
+          4.859,
+          4.864,
+          4.983,
+          4.998,
+          5.103,
+          5.154
+        ],
+        "note": ""
+      },
+      "VIX": {
+        "symbol": "^VIX",
+        "price": 19.3,
+        "change": 0.6,
+        "change_pct": 3.21,
+        "history": [
+          16.46,
+          19.99,
+          18.44,
+          17.31,
+          16.68,
+          19.03,
+          19.45,
+          18.39,
+          17.52,
+          16.91,
+          17.2,
+          19.42,
+          21.15,
+          20.83,
+          16.61,
+          28.18,
+          25.64,
+          19.92,
+          19.46,
+          17.49,
+          18.7,
+          19.3
+        ],
+        "note": ""
+      }
+    },
+    "暗号資産": {
+      "BTC/USD": {
+        "symbol": "BTC-USD",
+        "price": 65558.97,
+        "change": -2690.3,
+        "change_pct": -3.94,
+        "history": [
+          80790.8359,
+          80024.0078,
+          80006.6562,
+          80805.0781,
+          81267.5859,
+          77775.1094,
+          77198.2109,
+          77434.75,
+          78248.4531,
+          76677.2969,
+          77345.0469,
+          80405.2891,
+          75942.125,
+          75746.9297,
+          75747.5781,
+          74584.6484,
+          75223.1484,
+          73720.1172,
+          73964.4688,
+          71342.9688,
+          68249.2734,
+          65558.9688
+        ],
+        "note": ""
+      },
+      "ETH/USD": {
+        "symbol": "ETH-USD",
+        "price": 1828.54,
+        "change": -99.05,
+        "change_pct": -5.14,
+        "history": [
+          2355.9536,
+          2326.9202,
+          2320.2812,
+          2347.73,
+          2357.624,
+          2249.4983,
+          2241.0544,
+          2252.7478,
+          2273.0522,
+          2248.8862,
+          2272.7258,
+          2422.3118,
+          2234.4763,
+          2235.0474,
+          2236.3152,
+          2120.9802,
+          2131.4985,
+          2050.1809,
+          2055.8762,
+          2016.8297,
+          1927.5889,
+          1828.54
+        ],
+        "note": ""
+      }
+    },
+    "コモディティ": {
+      "金 (Gold)": {
+        "symbol": "GC=F",
+        "price": 3886.3,
+        "change": 1.0,
+        "change_pct": 0.03,
+        "history": [
+          4170.1001,
+          4181.1001,
+          4160.1001,
+          4142.6001,
+          4150.0,
+          4060.3999,
+          4007.8999,
+          4038.3999,
+          4074.6001,
+          4051.6001,
+          4031.3999,
+          3898.8999,
+          3969.6001,
+          3940.3999,
+          4073.0,
+          4113.5,
+          4074.8999,
+          4114.5,
+          4030.2,
+          4000.5,
+          3885.3,
+          3886.3
+        ],
+        "note": ""
+      },
+      "原油 (WTI)": {
+        "symbol": "CL=F",
+        "price": 88.56,
+        "change": -0.18,
+        "change_pct": -0.2,
+        "history": [
+          97.97,
+          101.41,
+          103.66,
+          101.79,
+          97.15,
+          99.47,
+          103.27,
+          101.76,
+          99.9,
+          102.78,
+          102.0,
+          104.12,
+          96.46,
+          96.09,
+          88.12,
+          90.52,
+          90.83,
+          86.85,
+          86.04,
+          86.53,
+          88.74,
+          88.56
+        ],
+        "note": ""
+      }
+    }
+  },
+  "news": {
+    "マーケット": [
+      {
+        "title": "AI悪用の攻撃拠点、千台発見 サイトの弱点探索、不正侵入疑い（共同通信）",
+        "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBJSUJiWkxiSnJVUTF1ajJuYWkwb3ExSHhkN2M4cXpVNzZEbThGYU4xbkdVT3VLMklIdGlBYUxtOXVfVnJFRjB5LXd6MlZpVmFreWZKOFRHUV81LVJVdVQ4Y1dXNzhDTnZMbHBpYWphRmxKNk5tZjR5QmFsc2JscWM?oc=5",
+        "source": "Yahoo!ニュース",
+        "published": "Sat, 14 Nov 2026 12:00:02 GMT",
+        "time_jst": "2026-11-14T21:00+09:00",
+        "sources": [
+          "Yahoo!ニュース",
+          "Yahoo IT"
+        ],
+        "coverage": 2
+      },
+      {
+        "title": "タマホームが保険代理業の廃業申し入れ、新規契約も近日中に停止見通し…保険金の不正請求受け",
+        "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5UdkVmMldRdk5wTVVLcEVlOWNlN1hUdlBxODZsOXJ2ZDZDMFdIeWdQNkpnWXkzamVuaW5kN0xyNDR2VmFjWTZrZHZFeWtuOFF2ZW9NN1ZpeGd1UXhoejFNZkxiQms?oc=5",
+        "source": "読売新聞",
+        "published": "Sat, 14 Nov 2026 04:24:00 GMT",
+        "time_jst": "2026-11-14T13:24+09:00",
+        "sources": [
+          "読売新聞",
+          "Yahoo経済"
+        ],
+        "coverage": 2
+      },
+      {
+        "title": "日経平均株価の指数情報・推移",
+        "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5SRDk1ZENIQUIzSUZyMHZRNHpCR2xlcTI5UTJRYXVoMDBrM3BmNndBT29vV0dDZWdQazZHb2tURGZNYy1OMU93R0kyUUZUT3VmU2VhbA?oc=5",
+        "source": "Yahoo!ファイナンス",
+        "published": "Sat, 14 Nov 2026 15:57:30 GMT",
+        "time_jst": "2026-11-15T00:57+09:00",
+        "sources": [
+          "Yahoo!ファイナンス"
+        ],
+        "coverage": 1
+      },
+      {
+        "title": "エヌビディアＣＥＯと「蜜月」のトランプ氏、スパイ疑惑が政権に波及…「ウォーターゲート事件に匹敵か」との指摘も",
+        "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFByYUdoS3lTb0pta3A1QXk4cDAwNWdQQjY1RnZzSUVFM0dJdUN3QTROVzlxeGJtajhKdlBxUi16TkVVSmJJMlNVbkYzUm1mamw0Zkl3Rmw3bjBJamhWQ2FfZmNn?oc=5",
+        "source": "読売新聞",
+        "published": "Sat, 14 Nov 2026 12:03:00 GMT",
+        "time_jst": "2026-11-14T21:03+09:00",
+        "sources": [
+          "読売新聞"
+        ],
+        "coverage": 1
+      },
+      {
+        "title": "米中間選挙後の金利 原油価格の低下は日銀の利上げ姿勢に大きく影響しないとみる 野村證券・宍戸知暁",
+        "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9nakFxbFAyVGk5QVFVRHNodkJENWJIMHN4UF9kR0g4SmFjc2dWY3ZmTjNVeFdzN3BGblYwVzFRM0NxQXRPWVg2ZXRWdG9Zc2c2ckpyZFUya3FkbjI2aUpR?oc=5",
+        "source": "野村證券",
+        "published": "Sat, 14 Nov 2026 09:23:33 GMT",
+        "time_jst": "2026-11-14T18:23+09:00",
+        "sources": [
+          "野村證券"
+        ],
+        "coverage": 1
+      },
+      {
+        "title": "来週（11/16～20）の日経平均株価の予想レンジは、5万9500～6万3500円！ 6万2000円(200日移動平均線)近辺での攻防や、好決算の内需株･金融株に注目",
+        "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBoSk9wSU5EU1JHRnRGUVdDd01Vb3FvOFNETmZOdlIxTm1EUDh0X1pvRzNXUHVPaGVOakh0eEdJZ3N2SVUtVmlyMXRVS0FmYmlwbkRJ?oc=5",
+        "source": "ダイヤモンド・オンライン",
+        "published": "Sat, 14 Nov 2026 16:59:03 GMT",
+        "time_jst": "2026-11-15T01:59+09:00",
+        "sources": [
+          "ダイヤモンド・オンライン"
+        ],
+        "coverage": 1
+      },
+      {
+        "title": "JR北海道「赤い星」キハ143形改造の観光列車を報道公開 - 写真82枚",
+        "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE50cUxPZ2hjeldfX1ZHeGRNZk9qRFZEcW9HaS02MU5fR05NOUFOVEdoTVIzUWJUSUlJTUdzX3VsTllIejhkYWtKOS1XYjFyQ2Raak16WkxpQk1vQ2h2WEsxaGZQSXhFQQ?oc=5",
+        "source": "マイナビニュース",
+        "published": "Sat, 14 Nov 2026 10:21:01 GMT",
+        "time_jst": "2026-11-14T19:21+09:00",
+        "sources": [
+          "マイナビニュース"
+        ],
+        "coverage": 1
+      },
+      {
+        "title": "【日銀が追加利上げ】米国の圧力でペース加速か 来年半ば２％に上昇へ インベスコ・アセット・マネジメントのグローバル・マーケット・ストラテジスト 木下智夫",
+        "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOd1k4ek5kcktEZ25MODc5TnNFWG5lWk8wU20xZ09leHNKVGhPbG5aSkRzcFZBeXV6WVRhWE5PSDZER012X21qWV9zZ3dOY3JlT0FoYzY4N2FHaDZDTV9fY0FxNGMycl9CX1BwVHpRbzhtWURNY3BYSjJSTHhKVFY1RmJieGFjUQ?oc=5",
+        "source": "山陽新聞",
+        "published": "Sat, 14 Nov 2026 17:53:29 GMT",
+        "time_jst": "2026-11-15T02:53+09:00",
+        "sources": [
+          "山陽新聞"
+        ],
+        "coverage": 1
+      },
+      {
+        "title": "日経平均反発、NVIDIAショック越え一時1000円高 週末の売りで伸び悩み【日経CNBC/きょうのポイント、明日のヒント】",
+        "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBBLUYyWnN1dENveVRyUFdDUC1NWnVlUmtwYXkxQTllME9TaDIwdk9JSWQ4bGhCRThOTUY2SzlONVF4Q3lNbDlRVllPWG9sSG5KNTl4b25VeENvcDNUQWdTRnBHdGY3Ums?oc=5",
+        "source": "テレ東BIZ",
+        "published": "Sat, 14 Nov 2026 12:46:12 GMT",
+        "time_jst": "2026-11-14T21:46+09:00",
+        "sources": [
+          "テレ東BIZ"
+        ],
+        "coverage": 1
+      },
+      {
+        "title": "AIが初めて金融システムの最大リスクに浮上、FRB調査で87%の回答者が警告",
+        "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE56bEtVcGZYZ2ZfaXlDSXRKSVFrWGRJaU52RS13RkxSS2VZbWpUNnZZV21MWXpNOUtQOTl3bFNfQXhoUks0dnR6dE1YT1gwOGlxcnpYUm5tdFdEd1hFU0NRMGFtUnJtZDBXZG50Z3IyQmdoVmpX?oc=5",
+        "source": "BigGo ファイナンス",
+        "published": "Sat, 14 Nov 2026 15:37:25 GMT",
+        "time_jst": "2026-11-15T00:37+09:00",
+        "sources": [
+          "BigGo ファイナンス"
+        ],
+        "coverage": 1
+      },
+      {
+        "title": "ドル円見通し｜一時160円台、157～158円台の膠着はなぜ崩れた？ 米金利上昇とAI株選別【相場の現在地】",
+        "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1ZRDZVbkhOb0VhRGVqX1I0akRpV2NXakJUS1pRRTNCNFNXdlBsdzZHUWNxWERXekJTbkxLRjU2ZlcteGVvY0hYUWhUbVhndXloSUNmR2pxY2FGMjFObkotOWxUTQ?oc=5",
+        "source": "外為どっとコム",
+        "published": "Sat, 14 Nov 2026 02:00:00 GMT",
+        "time_jst": "2026-11-14T11:00+09:00",
+        "sources": [
+          "外為どっとコム"
+        ],
+        "coverage": 1
+      },
+      {
+        "title": "ジェファーソンFRB副議長、追加利上げ判断ではインフレが最重要",
+        "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE0yX2JadkV4Ti1fOVdCNkd2ZHJSb0dhazhSSktxTHJlMXNBQmlOZVZVZ0E4b1RWQjROdnpsTlVGclRCNmcwRUVzOUxRRGpzUm1XTXV5X3hrZUZsbjhvczNqLVdzU1UzaFZMTUVjdS1iSkxsdV9T?oc=5",
+        "source": "TBS NEWS DIG",
+        "published": "Sat, 14 Nov 2026 09:00:00 GMT",
+        "time_jst": "2026-11-14T18:00+09:00",
+        "sources": [
+          "TBS NEWS DIG"
+        ],
+        "coverage": 1
+      },
+      {
+        "title": "【来週の注目材料】米小売売上高はやや伸びが鈍化も、堅調な消費動向示すか",
+        "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1jWFBnMlhSRnZiaHg5RmVyUklDSHQwUmhGRzlvbWNNRGNlMm9WNkFBUm05ZU03SDVjMzFFc0h3dzhWblhsc2Z0WA?oc=5",
+        "source": "みんかぶ FX/為替",
+        "published": "Sat, 14 Nov 2026 08:00:29 GMT",
+        "time_jst": "2026-11-14T17:00+09:00",
+        "sources": [
+          "みんかぶ FX/為替"
+        ],
+        "coverage": 1
+      },
+      {
+        "title": "【S耐FINAL大感謝祭】スバル、6速MT仕様の「WRX STI Sport R」公開 MT復活を求める声が寄せられ企画が実現",
+        "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5RQlh4TDRTbXR6MDJzdUo0Y1lNUEZsNDV4Q3VDM2M1TWZnV09ud0Y4Z3d4UlJLVUdVTFo1X3M5UldyWnlBQ1o2d0VSWEZtQWxBU0FlM1dQdXNTQmVtM0R6aTJCemk?oc=5",
+        "source": "Car Watch",
+        "published": "Sat, 14 Nov 2026 07:47:38 GMT",
+        "time_jst": "2026-11-14T16:47+09:00",
+        "sources": [
+          "Car Watch"
+        ],
+        "coverage": 1
+      },
+      {
+        "title": "住宅ローン金利の上昇顕著「４０００万円・３５年返済」上げ幅０・５％で差はどれくらい？…慎重に検討を（読売新聞オンライン）",
+        "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE51Z2lRNXlMb2pDODc2dFFHNnlmaV9Qd2FfTXN4VGEwaXhvOFNjcGhQSW1NanhuMm9xUGJ3TXAzUnpCU3J4Qzh0Wkk0Y1psMlZPWDNjRUg5ZkllV24xQ2hqaFRtVkRLQm5TVWVyRzJhVGE5YWpfaUpTUG1ZSHd4SGs?oc=5",
+        "source": "Yahoo!ニュース",
+        "published": "Sat, 14 Nov 2026 02:30:08 GMT",
+        "time_jst": "2026-11-14T11:30+09:00",
+        "sources": [
+          "Yahoo!ニュース"
+        ],
+        "coverage": 1
+      },
+      {
+        "title": "日経平均暴落でも年初来高値も！ショック安に勝つ株、三つのポイント（茂木春輝）",
+        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE14bWtkOVRSNml4aDZaY1JlY2plTHdMcmZrbWpmc09TZERxUk1uWktVakRBM2k5MGVMQ0RuZnF3Y0tzVVh0cUw1VmpEaGpZeWU5U2dCXzByQTBtZw?oc=5",
+        "source": "トウシル",
+        "published": "Fri, 13 Nov 2026 23:00:00 GMT",
+        "time_jst": "2026-11-14T08:00+09:00",
+        "sources": [
+          "トウシル"
+        ],
+        "coverage": 1
+      },
+      {
+        "title": "新潟県内の地銀２行いずれも増益 金利上昇で利息収入増",
+        "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE14aUphUXNxVXpOdU55VEZ2SF9FS2luLWsxeGxibTdyVTRVZmw4c2ZTVHlzcExad2NHSkhQSS1TVzVGd1VyTmVYSWR6SXJ5eGdTOXRUYW5BOV9nRXJNazdV?oc=5",
+        "source": "NHKニュース",
+        "published": "Sat, 14 Nov 2026 05:08:13 GMT",
+        "time_jst": "2026-11-14T14:08+09:00",
+        "sources": [
+          "NHKニュース"
+        ],
+        "coverage": 1
+      },
+      {
+        "title": "来週の為替予想（米ドル/円）160円再来でよみがえる『最後の退避勧告』、介入警戒下で上値を試す条件は ハロンズFX 2026/11/14",
+        "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1IQUNKWEs1LS1rVVdJb0lSRU1GYmpRTGhmb1RGMldVTjZnQWNabGtZZlFGX09nVVJGRDJpWFJKeXBqSXZuNS1KUnhmSFlhM2JRTFdsNDlPc0RWRUNta3JacW5RZw?oc=5",
+        "source": "外為どっとコム",
+        "published": "Fri, 13 Nov 2026 21:01:28 GMT",
+        "time_jst": "2026-11-14T06:01+09:00",
+        "sources": [
+          "外為どっとコム"
+        ],
+        "coverage": 1
+      },
+      {
+        "title": "来週の主な予定 高田日銀委員、エヌビディア・アンソロピック FOMC議事録 ウォーシュFRB議長 -",
+        "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5QQVEzRk9wYjZpX0JzQkZ2Q2VrcUpubnp5ZkUzWHlTbnNZTXVrNlVlVlg4TmNpcEhxcFdrNXNiNW9QNHFSOHcycQ?oc=5",
+        "source": "みんかぶ FX/為替",
+        "published": "Fri, 13 Nov 2026 22:40:29 GMT",
+        "time_jst": "2026-11-14T07:40+09:00",
+        "sources": [
+          "みんかぶ FX/為替"
+        ],
+        "coverage": 1
+      },
+      {
+        "title": "Tracers 日経平均高配当株50インデックス(奇数月分配型)【02313241】：基準価格・投資信託情報",
+        "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1iRWo5aHlsZk1rQWZrZmxtaS1hb2t6VlY3dFpRUHRGODJsVGdMR0tkRDh4UFFwY1h4SE9fUFRaQVo2QzItVGpySkx3Uk10NmczOElhZw?oc=5",
+        "source": "Yahoo!ファイナンス",
+        "published": "Sat, 14 Nov 2026 17:34:09 GMT",
+        "time_jst": "2026-11-15T02:34+09:00",
+        "sources": [
+          "Yahoo!ファイナンス"
+        ],
+        "coverage": 1
+      }
+    ],
+    "国内・政治経済": [
+      {
+        "title": "イラン再攻撃巡り深まる孤立　イスラエル首相に自制求める声",
+        "link": "https://www.jiji.com/jc/article?k=2026111400325&g=int&m=rss",
+        "source": "時事通信",
+        "published": "2026-11-14T20:30:00+09:00",
+        "time_jst": "2026-11-14T20:30+09:00",
+        "sources": [
+          "時事通信",
+          "時事ドットコム"
+        ],
+        "coverage": 2
+      },
+      {
+        "title": "「これからも海の学習を大切に」　両陛下、大阪の小学生と交流",
+        "link": "http://www.asahi.com/articles/ASVCG323LVCGPQIP00CM.html?ref=rss",
+        "source": "朝日新聞",
+        "published": "2026-11-14T20:27:22+09:00",
+        "time_jst": "2026-11-14T20:27+09:00",
+        "sources": [
+          "朝日新聞"
+        ],
+        "coverage": 1
+      },
+      {
+        "title": "日本、また王国ブラジル撃破　坂元決勝点、通算２勝目―サッカー日本代表",
+        "link": "https://www.jiji.com/jc/article?k=2026111400385&g=spo&m=rss",
+        "source": "時事通信",
+        "published": "2026-11-14T21:47:00+09:00",
+        "time_jst": "2026-11-14T21:47+09:00",
+        "sources": [
+          "時事通信"
+        ],
+        "coverage": 1
+      },
+      {
+        "title": "《先行試乗》ファン熱望のMTモデル｢WRX STI Sport R｣で判明した真価――単なるMT化にとどまらないスバルの執念",
+        "link": "https://toyokeizai.net/articles/-/964468?utm_source=rss&utm_medium=http&utm_campaign=link_back",
+        "source": "東洋経済",
+        "published": "Sat, 14 Nov 2026 12:00:00 +0900",
+        "time_jst": "2026-11-14T12:00+09:00",
+        "sources": [
+          "東洋経済"
+        ],
+        "coverage": 1
+      },
+      {
+        "title": "「高速道路で逆走する人」はなぜ後を絶たないのか？ついに導入される〈ガツンと警告する秘密兵器〉とは - それって本当？クルマの「当たり前」",
+        "link": "https://diamond.jp/articles/-/403319",
+        "source": "ダイヤモンド",
+        "published": "Sun, 15 Nov 2026 04:00:00 +0900",
+        "time_jst": "2026-11-15T04:00+09:00",
+        "sources": [
+          "ダイヤモンド"
+        ],
+        "coverage": 1
+      },
+      {
+        "title": "大阪・枚方3歳女児虐待死 3月にも女児の顔にあざ 8月の死亡時には数十カ所確認",
+        "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBxNm5FNEEtNHAwWFBDb3NFbTllRnpZbEhuR3FpcjQ1VDRBWHVodjloRms2VmtGMmwtWFAtZHM5enNSY3dfZU1YdEs5ZFZDSTF1V0xFQjNmcm1WVE1QUnZQYVZWVVZPM2VSakFCWlctazE2VUlXb0E?oc=5",
+        "source": "産経ニュース",
+        "published": "Sat, 14 Nov 2026 09:18:11 GMT",
+        "time_jst": "2026-11-14T18:18+09:00",
+        "sources": [
+          "産経ニュース"
+        ],
+        "coverage": 1
+      },
+      {
+        "title": "大阪市西淀川区で平屋建て倉庫火災　50代女性1人搬送、意識あり",
+        "link": "http://www.asahi.com/articles/ASVCG2QK1VCGPTIL00BM.html?ref=rss",
+        "source": "朝日新聞",
+        "published": "2026-11-14T17:24:04+09:00",
+        "time_jst": "2026-11-14T17:24+09:00",
+        "sources": [
+          "朝日新聞"
+        ],
+        "coverage": 1
+      },
+      {
+        "title": "編集部厳選､注目の経済ニュース！【11月14日】 今週のトピックス＆来週のスケジュール",
+        "link": "https://toyokeizai.net/articles/-/964759?utm_source=rss&utm_medium=http&utm_campaign=link_back",
+        "source": "東洋経済",
+        "published": "Sat, 14 Nov 2026 09:00:00 +0900",
+        "time_jst": "2026-11-14T09:00+09:00",
+        "sources": [
+          "東洋経済"
+        ],
+        "coverage": 1
+      },
+      {
+        "title": "「ついうっかり…」じゃすまない！92歳母が口にした、娘をハラハラさせる悪気ない一言 - ハルコ92歳 本日も介護未満",
+        "link": "https://diamond.jp/articles/-/402845",
+        "source": "ダイヤモンド",
+        "published": "Sat, 14 Nov 2026 11:00:00 +0900",
+        "time_jst": "2026-11-14T11:00+09:00",
+        "sources": [
+          "ダイヤモンド"
+        ],
+        "coverage": 1
+      },
+      {
+        "title": "神奈川・海老名で２人死亡のひき逃げ事件、容疑で逮捕の男「事故については全くわからない」と否認",
+        "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5ORlF6VDFSREFrMVNrcWp0cUgteG5ualZlR21tWWZLVHVBMHVzUnVXYWR3ZmxEZk9UNWJPZUdTWkNKckREOFhuNGFjOEc0cTYwMURad1VaTk02MTZBbjhuV2V1Zjhodw?oc=5",
+        "source": "読売新聞",
+        "published": "Sat, 14 Nov 2026 10:56:00 GMT",
+        "time_jst": "2026-11-14T19:56+09:00",
+        "sources": [
+          "読売新聞"
+        ],
+        "coverage": 1
+      },
+      {
+        "title": "警察に共有されなかったあざの情報…判断基準は　大阪3歳女児虐待死",
+        "link": "http://www.asahi.com/articles/ASVCG1HJ3VCGPTIL00TM.html?ref=rss",
+        "source": "朝日新聞",
+        "published": "2026-11-14T17:00:00+09:00",
+        "time_jst": "2026-11-14T17:00+09:00",
+        "sources": [
+          "朝日新聞"
+        ],
+        "coverage": 1
+      },
+      {
+        "title": "米軍大尉、酒気帯び容疑で逮捕　未明の自宅外での飲酒禁止中―沖縄県警",
+        "link": "https://www.jiji.com/jc/article?k=2026111400412&g=soc&m=rss",
+        "source": "時事通信",
+        "published": "2026-11-14T20:36:00+09:00",
+        "time_jst": "2026-11-14T20:36+09:00",
+        "sources": [
+          "時事通信"
+        ],
+        "coverage": 1
+      },
+      {
+        "title": "｢アンソロピックの悪質IPO｣＋｢エヌビディアCEOスキャンダル｣……ついにAI･半導体バブル崩壊は決定的瞬間を迎えそうだ",
+        "link": "https://toyokeizai.net/articles/-/964642?utm_source=rss&utm_medium=http&utm_campaign=link_back",
+        "source": "東洋経済",
+        "published": "Sat, 14 Nov 2026 06:30:00 +0900",
+        "time_jst": "2026-11-14T06:30+09:00",
+        "sources": [
+          "東洋経済"
+        ],
+        "coverage": 1
+      },
+      {
+        "title": "この人と話していると何で疲れるんだろう…「会話がしんどい人」に決定的に欠けているものは？〈注目記事〉 - 要約の達人 from flier",
+        "link": "https://diamond.jp/articles/-/401899",
+        "source": "ダイヤモンド",
+        "published": "Sat, 14 Nov 2026 11:00:00 +0900",
+        "time_jst": "2026-11-14T11:00+09:00",
+        "sources": [
+          "ダイヤモンド"
+        ],
+        "coverage": 1
+      },
+      {
+        "title": "明日11月15日(日)の天気予報 低気圧や前線が通過 全国的に雨で激しく降る所も",
+        "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1taDdYZkV0MkZoVWhXQ0pnWDl2b2hTN0k5SWtUZjZGN3BsLWtEV3B1SjRDMEItLUhwcUZHLTBndzYxdWVVUE5XdU5heC13Nkl3ell6Ug?oc=5",
+        "source": "ウェザーニュース",
+        "published": "Sat, 14 Nov 2026 08:00:00 GMT",
+        "time_jst": "2026-11-14T17:00+09:00",
+        "sources": [
+          "ウェザーニュース"
+        ],
+        "coverage": 1
+      },
+      {
+        "title": "売れ残りを寄付 広がる一方問題も",
+        "link": "https://news.yahoo.co.jp/pickup/6602572?source=rss",
+        "source": "Yahoo経済",
+        "published": "Sat, 14 Nov 2026 09:42:53 GMT",
+        "time_jst": "2026-11-14T18:42+09:00",
+        "sources": [
+          "Yahoo経済"
+        ],
+        "coverage": 1
+      },
+      {
+        "title": "徳島県阿波市長らの詐欺事件、市職員と会社員を釈放　勾留請求を却下",
+        "link": "http://www.asahi.com/articles/ASVCG15K3VCGPLXB001M.html?ref=rss",
+        "source": "朝日新聞",
+        "published": "2026-11-14T13:46:36+09:00",
+        "time_jst": "2026-11-14T13:46+09:00",
+        "sources": [
+          "朝日新聞"
+        ],
+        "coverage": 1
+      },
+      {
+        "title": "日本、豪州にコールド勝ち　１５日に韓国と決勝―アジアプロ野球",
+        "link": "https://www.jiji.com/jc/article?k=2026111400334&g=spo&m=rss",
+        "source": "時事通信",
+        "published": "2026-11-14T23:06:00+09:00",
+        "time_jst": "2026-11-14T23:06+09:00",
+        "sources": [
+          "時事通信"
+        ],
+        "coverage": 1
+      },
+      {
+        "title": "新NISAの「オルカン」「S＆P500」だけやっている人が見落としていること・ワースト1 - 10万円から始める! 小型株集中投資で1億円【超改訂版】",
+        "link": "https://diamond.jp/articles/-/400513",
+        "source": "ダイヤモンド",
+        "published": "Sat, 14 Nov 2026 08:25:00 +0900",
+        "time_jst": "2026-11-14T08:25+09:00",
+        "sources": [
+          "ダイヤモンド"
+        ],
+        "coverage": 1
+      },
+      {
+        "title": "天皇皇后両陛下 「全国豊かな海づくり大会」出席へ 大阪に到着",
+        "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBXaVl5TWxvYS1ZQjRrbTJ0YTFZOWRMVVFYNTFqY1FMY3JOLTV4Wlp1amxRZFd3VlRhazRpVF94VTJfTlluNGVEREZuNDM1YkUyZkdpTEZLb0RNY1kwTDl0bDQzb0VzdW50cDV5WHotbVpldw?oc=5",
+        "source": "テレ朝NEWS",
+        "published": "Sat, 14 Nov 2026 10:37:56 GMT",
+        "time_jst": "2026-11-14T19:37+09:00",
+        "sources": [
+          "テレ朝NEWS"
+        ],
+        "coverage": 1
+      }
+    ],
+    "国際・地政学": [
+      {
+        "title": "米大統領選、不出馬検討か　バンス氏、中間選挙の共和大敗受け",
+        "link": "https://www.jiji.com/jc/article?k=2026111400196&g=int&m=rss",
+        "source": "時事通信",
+        "published": "2026-11-14T07:49:00+09:00",
+        "time_jst": "2026-11-14T07:49+09:00",
+        "sources": [
+          "時事通信",
+          "時事ドットコム",
+          "CNN",
+          "Yahoo国際"
+        ],
+        "coverage": 4
+      },
+      {
+        "title": "ようやく「全面復旧」発表 マイクロソフト大規模障害、滞留メールの処理完了 丸1日続く",
+        "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9sSXJlcGFmTlpFTUFJT2F1MU1qYnM4a1VVeHhOQ0F3NmlQVUNpWmxSZkVLOS1Ka19RaE1Xc1dRMTVCX3I5cVlxMF8tU2hpTFpQSzJRMXo0bzBmekV6V0lNd3FUYjNRSWZiQWlUNGRJaHhBT3kxYVE?oc=5",
+        "source": "産経ニュース",
+        "published": "Sat, 14 Nov 2026 08:16:30 GMT",
+        "time_jst": "2026-11-14T17:16+09:00",
+        "sources": [
+          "産経ニュース",
+          "BBC日本語",
+          "CNN",
+          "Yahoo IT"
+        ],
+        "coverage": 4
+      },
+      {
+        "title": "【まとめ】全米の空港で約7000便欠航…航空機の地上待機命令は解除 運輸長官「レーダーと通信に不安定な状態発生」“管制システム老朽化でルーターに負荷”",
+        "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1IWVBzWFhvVGJwZVRtZkFIVXQ2UjJacXQ5eGFzV1JCZk56SjB4QXo4c2xkcGYzSWdIX3QxTEVVLU9xOXkzWDcxbDdLR1F1T3hyLUIyLTFOMW1aZV9KLVZzLU90eVA0ckwwMmVadTZaOGhKSDVTeHRWTUlR?oc=5",
+        "source": "テレ朝NEWS",
+        "published": "Sat, 14 Nov 2026 03:13:00 GMT",
+        "time_jst": "2026-11-14T12:13+09:00",
+        "sources": [
+          "テレ朝NEWS",
+          "BBC日本語",
+          "Yahoo国際"
+        ],
+        "coverage": 3
+      },
+      {
+        "title": "上海拠点に禁輸半導体か 前ＣＥＯと不倫疑惑女性の企業、各国が調査―エヌビディア",
+        "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9ZRlVqZU5iQ2JHWkZXVXJDQlZUbHFxbTgzSlJpZHFqWmpJNDVmZTdMeGVFendjbUFpbkxCQVhqbGxXYUdtUkU3d0dGOFlJaVhYc2RKRkZEb0VrejEzTkNsUUNFaw?oc=5",
+        "source": "時事ドットコム",
+        "published": "Sat, 14 Nov 2026 11:31:00 GMT",
+        "time_jst": "2026-11-14T20:31+09:00",
+        "sources": [
+          "時事ドットコム",
+          "Yahoo経済",
+          "BBC日本語"
+        ],
+        "coverage": 3
+      },
+      {
+        "title": "「制御不能」のタンカーがクルーズ船に衝突、川に投げ出された乗客　全員無事で「ミシシッピ川の奇跡」",
+        "link": "https://www.cnn.co.jp/usa/35254886.html?ref=rss",
+        "source": "CNN",
+        "published": "2026-11-14T18:49:00+09:00",
+        "time_jst": "2026-11-14T18:49+09:00",
+        "sources": [
+          "CNN",
+          "Yahoo国際"
+        ],
+        "coverage": 2
+      },
+      {
+        "title": "【解説】 強硬姿勢を崩さないプーチン氏、ウクライナ和平の条件を一段と拡大",
+        "link": "https://www.bbc.com/japanese/articles/cjx2r4rd93rzo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC日本語",
+        "published": "Sat, 14 Nov 2026 06:02:14 GMT",
+        "time_jst": "2026-11-14T15:02+09:00",
+        "sources": [
+          "BBC日本語",
+          "BBC"
+        ],
+        "coverage": 2
+      },
+      {
+        "title": "ホワイトハウス、米ロ中首脳の歴史的会談を実施すると発表　トランプ大統領、プーチン大統領、習主席が来週中国に集まると",
+        "link": "https://www.bbc.com/japanese/articles/cwkgrn5pnv0mo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC日本語",
+        "published": "Sat, 14 Nov 2026 05:40:33 GMT",
+        "time_jst": "2026-11-14T14:40+09:00",
+        "sources": [
+          "BBC日本語"
+        ],
+        "coverage": 1
+      },
+      {
+        "title": "シャチの激しい体当たり、マンボウが粉々に「爆発」する水中映像　捕食戦略か遊びか",
+        "link": "https://www.cnn.co.jp/fringe/35254887.html?ref=rss",
+        "source": "CNN",
+        "published": "2026-11-14T20:11:00+09:00",
+        "time_jst": "2026-11-14T20:11+09:00",
+        "sources": [
+          "CNN"
+        ],
+        "coverage": 1
+      },
+      {
+        "title": "アメリカ側がウクライナに「NATO加盟と引き換えにドンバス撤退」初めて打診 ゼレンスキー大統領明らかに",
+        "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBPMEV1T0J6VFc0YVhEa2xnMldjTEl4cmMzNjJKTVpiUmUzdHpIa21Bdk1KSnh3b0FUX24yQ1pnZEhUVlI4RkZWbEM1ako1d2lDUDloWTZraG1SWWlubGN4UnpIUG9VN2RMWVZKZ1ZYYzdFSWNFamlQeFZrdzV6dk0?oc=5",
+        "source": "Yahoo!ニュース",
+        "published": "Sat, 14 Nov 2026 14:31:47 GMT",
+        "time_jst": "2026-11-14T23:31+09:00",
+        "sources": [
+          "Yahoo!ニュース"
+        ],
+        "coverage": 1
+      },
+      {
+        "title": "米中露会談 核兵器削減を協議へ",
+        "link": "https://news.yahoo.co.jp/pickup/6602532?source=rss",
+        "source": "Yahoo国際",
+        "published": "Sat, 14 Nov 2026 03:13:51 GMT",
+        "time_jst": "2026-11-14T12:13+09:00",
+        "sources": [
+          "Yahoo国際"
+        ],
+        "coverage": 1
+      },
+      {
+        "title": "「史上初」の米中露首脳会談、核軍縮など協議も米政府高官は「合意に至るとは想定していない」「入り口だ」",
+        "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5yWnBEaGdCNDl1Vm1aVjludmJ1al96V1QxbGFWcEVGeEFBV1F6U2FHRFhhYVhjZlAtMHFFazRoRmlfNkdSNlRvOXZmMjczMldNWTEwS1VGNnR5a0FjTzVIOVZ3?oc=5",
+        "source": "読売新聞",
+        "published": "Sat, 14 Nov 2026 09:46:00 GMT",
+        "time_jst": "2026-11-14T18:46+09:00",
+        "sources": [
+          "読売新聞"
+        ],
+        "coverage": 1
+      },
+      {
+        "title": "米中露首脳会談 19日に中国で開催",
+        "link": "https://news.yahoo.co.jp/pickup/6602511?source=rss",
+        "source": "Yahoo国際",
+        "published": "Sat, 14 Nov 2026 00:02:05 GMT",
+        "time_jst": "2026-11-14T09:02+09:00",
+        "sources": [
+          "Yahoo国際"
+        ],
+        "coverage": 1
+      },
+      {
+        "title": "【分析】移民巡るトランプ氏の奇妙な発言、MAGAを挑発　非正規移民の合法化に前向き？",
+        "link": "https://www.cnn.co.jp/usa/35254885.html?ref=rss",
+        "source": "CNN",
+        "published": "2026-11-14T16:50:00+09:00",
+        "time_jst": "2026-11-14T16:50+09:00",
+        "sources": [
+          "CNN"
+        ],
+        "coverage": 1
+      },
+      {
+        "title": "米の航空混乱 途方に暮れる乗客",
+        "link": "https://news.yahoo.co.jp/pickup/6602568?source=rss",
+        "source": "Yahoo国際",
+        "published": "Sat, 14 Nov 2026 08:45:15 GMT",
+        "time_jst": "2026-11-14T17:45+09:00",
+        "sources": [
+          "Yahoo国際"
+        ],
+        "coverage": 1
+      },
+      {
+        "title": "米国、26年ぶりに「はしか排除状態」の認定取り消し　ワクチン未接種で感染拡大",
+        "link": "https://www.cnn.co.jp/usa/35254884.html?ref=rss",
+        "source": "CNN",
+        "published": "2026-11-14T15:42:00+09:00",
+        "time_jst": "2026-11-14T15:42+09:00",
+        "sources": [
+          "CNN"
+        ],
+        "coverage": 1
+      },
+      {
+        "title": "イランが湾岸地域の米軍施設を攻撃、2カ月ぶり　合意の望み薄れる中",
+        "link": "https://www.cnn.co.jp/usa/35254881.html?ref=rss",
+        "source": "CNN",
+        "published": "2026-11-14T13:18:00+09:00",
+        "time_jst": "2026-11-14T13:18+09:00",
+        "sources": [
+          "CNN"
+        ],
+        "coverage": 1
+      },
+      {
+        "title": "アメリカのトランプ大統領も出席 15日からASEAN首脳関連会議始まる",
+        "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1rbWV0YmxpdDFDaFh1Tm5odDlMLVkzU0x4Q2xpRjZXTHZudzRKVHNNRmxPQW9rYlVSOTB0MmdtRmhSOVlFOXBZekZ5OUhMX2ZZVDIxLUR2dU1mQVM2ZmlXUC1uUWc3RVlKRkU5bG9n?oc=5",
+        "source": "au Webポータル",
+        "published": "Sat, 14 Nov 2026 10:43:24 GMT",
+        "time_jst": "2026-11-14T19:43+09:00",
+        "sources": [
+          "au Webポータル"
+        ],
+        "coverage": 1
+      },
+      {
+        "title": "米空港で混乱 原因はハードウエア",
+        "link": "https://news.yahoo.co.jp/pickup/6602529?source=rss",
+        "source": "Yahoo国際",
+        "published": "Sat, 14 Nov 2026 02:54:59 GMT",
+        "time_jst": "2026-11-14T11:54+09:00",
+        "sources": [
+          "Yahoo国際"
+        ],
+        "coverage": 1
+      },
+      {
+        "title": "米軍、イランによるバーレーンのレーダー攻撃否定 「無人機撃墜」（ロイター）",
+        "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFA0M1hoRGg2cWJHd3NaMWtLZE5FSS1GbXlCOTd5SV9CNDFHWHhJZFAwT0VKcFZEeE5ra2lHOFBLMnpMWXhyRFIyNWpSVDRGSEloTXhwWThrTWJ6X3BMRTEza0NLX3pEU0tzWjIwTENUZUZmMTdjYjhyejZ5aDBPRzg?oc=5",
+        "source": "Yahoo!ニュース",
+        "published": "Fri, 13 Nov 2026 02:46:34 GMT",
+        "time_jst": "2026-11-13T11:46+09:00",
+        "sources": [
+          "Yahoo!ニュース"
+        ],
+        "coverage": 1
+      },
+      {
+        "title": "米特使、プーチン氏と会談　その後にゼレンスキー氏とも",
+        "link": "https://www.bbc.com/japanese/articles/c6kg7mxr20gdo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC日本語",
+        "published": "Fri, 13 Nov 2026 08:11:10 GMT",
+        "time_jst": "2026-11-13T17:11+09:00",
+        "sources": [
+          "BBC日本語"
+        ],
+        "coverage": 1
+      }
+    ],
+    "テック": [
+      {
+        "title": "マネックス証券 免許証画像流出か",
+        "link": "https://news.yahoo.co.jp/pickup/6602486?source=rss",
+        "source": "Yahoo IT",
+        "published": "Fri, 13 Nov 2026 22:28:18 GMT",
+        "time_jst": "2026-11-14T07:28+09:00",
+        "sources": [
+          "Yahoo IT",
+          "Impress Watch"
+        ],
+        "coverage": 2
+      },
+      {
+        "title": "Netflixが値上げ　最安の広告つきプランは月額990円、4K対応「プレミアム」は2590円に",
+        "link": "https://www.itmedia.co.jp/mobile/articles/2611/14/news017.html",
+        "source": "ITmedia",
+        "published": "Sat, 14 Nov 2026 23:05:00 +0900",
+        "time_jst": "2026-11-14T23:05+09:00",
+        "sources": [
+          "ITmedia"
+        ],
+        "coverage": 1
+      },
+      {
+        "title": "摂取量が多い人ほど認知機能が速く低下する傾向が見られた6種の甘味料とは？",
+        "link": "https://gigazine.net/news/20261114-sugar-substitutes-cognitive-decline/",
+        "source": "GIGAZINE",
+        "published": "Sat, 14 Nov 2026 23:00:00 +0900",
+        "time_jst": "2026-11-14T23:00+09:00",
+        "sources": [
+          "GIGAZINE"
+        ],
+        "coverage": 1
+      },
+      {
+        "title": "Microsoft 365、接続障害から回復　後日詳細を報告へ",
+        "link": "https://www.watch.impress.co.jp/docs/news/2156470.html",
+        "source": "Impress Watch",
+        "published": "2026-11-14T11:02:13+09:00",
+        "time_jst": "2026-11-14T11:02+09:00",
+        "sources": [
+          "Impress Watch"
+        ],
+        "coverage": 1
+      },
+      {
+        "title": "モバイルセグメントは損失をさらに縮小し、純増基調を維持――楽天グループが2026年度第3四半期決算を発表",
+        "link": "https://www.itmedia.co.jp/mobile/articles/2611/14/news016.html",
+        "source": "ITmedia",
+        "published": "Sat, 14 Nov 2026 15:00:00 +0900",
+        "time_jst": "2026-11-14T15:00+09:00",
+        "sources": [
+          "ITmedia"
+        ],
+        "coverage": 1
+      },
+      {
+        "title": "高速回転するホイールが発する火花を超スローモーションで捉えたムービー",
+        "link": "https://gigazine.net/news/20261114-10-billion-sparks/",
+        "source": "GIGAZINE",
+        "published": "Sat, 14 Nov 2026 21:30:00 +0900",
+        "time_jst": "2026-11-14T21:30+09:00",
+        "sources": [
+          "GIGAZINE"
+        ],
+        "coverage": 1
+      },
+      {
+        "title": "シチズン アテッサ、スター・ウォーズ「デス・スター」をデザイン",
+        "link": "https://www.watch.impress.co.jp/docs/news/2156290.html",
+        "source": "Impress Watch",
+        "published": "2026-11-14T10:18:36+09:00",
+        "time_jst": "2026-11-14T10:18+09:00",
+        "sources": [
+          "Impress Watch"
+        ],
+        "coverage": 1
+      },
+      {
+        "title": "ドコモの通信障害で影響を受けた「5G SA」回線数は5Gユーザーの3～4％　思ったよりも少ない？　多い？",
+        "link": "https://www.itmedia.co.jp/mobile/articles/2611/14/news015.html",
+        "source": "ITmedia",
+        "published": "Sat, 14 Nov 2026 13:15:00 +0900",
+        "time_jst": "2026-11-14T13:15+09:00",
+        "sources": [
+          "ITmedia"
+        ],
+        "coverage": 1
+      },
+      {
+        "title": "無料で時間管理用のカレンダーとタスク管理用のToDoアプリの両方を1つのタイムラインにまとめる「Mitra」、CalDAV・Googleカレンダー・Appleカレンダー・Notion・Todoist・Tempoと双方向同期可能",
+        "link": "https://gigazine.net/news/20261114-mitra/",
+        "source": "GIGAZINE",
+        "published": "Sat, 14 Nov 2026 21:00:00 +0900",
+        "time_jst": "2026-11-14T21:00+09:00",
+        "sources": [
+          "GIGAZINE"
+        ],
+        "coverage": 1
+      },
+      {
+        "title": "【いつモノコト】飲み物が冷めない幸せ スマホも充電できる「MugWarmer 2」",
+        "link": "https://www.watch.impress.co.jp/docs/series/itsmo/2155210.html",
+        "source": "Impress Watch",
+        "published": "2026-11-14T09:30:00+09:00",
+        "time_jst": "2026-11-14T09:30+09:00",
+        "sources": [
+          "Impress Watch"
+        ],
+        "coverage": 1
+      },
+      {
+        "title": "MS 障害原因は過去の増強作業",
+        "link": "https://news.yahoo.co.jp/pickup/6602606?source=rss",
+        "source": "Yahoo IT",
+        "published": "Sat, 14 Nov 2026 14:42:06 GMT",
+        "time_jst": "2026-11-14T23:42+09:00",
+        "sources": [
+          "Yahoo IT"
+        ],
+        "coverage": 1
+      },
+      {
+        "title": "難関のWi-Fi配線もクリア！　デルの「親子パソコン組立教室 2026」で子どもたちが最新PC作りに挑戦",
+        "link": "https://www.itmedia.co.jp/pcuser/articles/2611/14/news002.html",
+        "source": "ITmedia",
+        "published": "Sat, 14 Nov 2026 12:00:00 +0900",
+        "time_jst": "2026-11-14T12:00+09:00",
+        "sources": [
+          "ITmedia"
+        ],
+        "coverage": 1
+      },
+      {
+        "title": "日本では妻の収入が増えると夫はより多くの家事をするようになるのか？",
+        "link": "https://gigazine.net/news/20261114-japanese-wives-earn-more-husbands-households/",
+        "source": "GIGAZINE",
+        "published": "Sat, 14 Nov 2026 20:00:00 +0900",
+        "time_jst": "2026-11-14T20:00+09:00",
+        "sources": [
+          "GIGAZINE"
+        ],
+        "coverage": 1
+      },
+      {
+        "title": "アクアパーク品川×サンリオ リトルツインスターズ アクアリウムを見てきた!",
+        "link": "https://www.watch.impress.co.jp/docs/news/2156416.html",
+        "source": "Impress Watch",
+        "published": "2026-11-14T09:00:00+09:00",
+        "time_jst": "2026-11-14T09:00+09:00",
+        "sources": [
+          "Impress Watch"
+        ],
+        "coverage": 1
+      },
+      {
+        "title": "【ダイソー】110円の「スタンド（便器型）」　日常生活がちょっと楽しく、実用性も十分",
+        "link": "https://www.itmedia.co.jp/mobile/articles/2611/14/news012.html",
+        "source": "ITmedia",
+        "published": "Sat, 14 Nov 2026 10:00:00 +0900",
+        "time_jst": "2026-11-14T10:00+09:00",
+        "sources": [
+          "ITmedia"
+        ],
+        "coverage": 1
+      },
+      {
+        "title": "アメリカ全土で航空機の運航が一時停止、原因は通信ネットワーク更新によるシステムダウンか",
+        "link": "https://gigazine.net/news/20261114-faa-outage-caused-system-crash/",
+        "source": "GIGAZINE",
+        "published": "Sat, 14 Nov 2026 13:41:00 +0900",
+        "time_jst": "2026-11-14T13:41+09:00",
+        "sources": [
+          "GIGAZINE"
+        ],
+        "coverage": 1
+      },
+      {
+        "title": "G-SHOCK、「XG」コラボ第2弾　狼のシルエットが浮かび上がる",
+        "link": "https://www.watch.impress.co.jp/docs/news/2156221.html",
+        "source": "Impress Watch",
+        "published": "2026-11-14T08:30:00+09:00",
+        "time_jst": "2026-11-14T08:30+09:00",
+        "sources": [
+          "Impress Watch"
+        ],
+        "coverage": 1
+      },
+      {
+        "title": "ローミング縮小でも楽天モバイルからユーザーが流出しない理由　一方で浮上する「副回線化とARPU低下」の懸念",
+        "link": "https://www.itmedia.co.jp/mobile/articles/2611/14/news014.html",
+        "source": "ITmedia",
+        "published": "Sat, 14 Nov 2026 09:00:00 +0900",
+        "time_jst": "2026-11-14T09:00+09:00",
+        "sources": [
+          "ITmedia"
+        ],
+        "coverage": 1
+      },
+      {
+        "title": "ゲーム開発者の40％が生成AIを使用しているもののそれ以上に多くの人が生成AIは有害だと考えている",
+        "link": "https://gigazine.net/news/20261114-developers-games-industry-using-generative-ai/",
+        "source": "GIGAZINE",
+        "published": "Sat, 14 Nov 2026 13:00:00 +0900",
+        "time_jst": "2026-11-14T13:00+09:00",
+        "sources": [
+          "GIGAZINE"
+        ],
+        "coverage": 1
+      },
+      {
+        "title": "GMO攻撃 被害申告は29.9億円に",
+        "link": "https://news.yahoo.co.jp/pickup/6602430?source=rss",
+        "source": "Yahoo IT",
+        "published": "Fri, 13 Nov 2026 07:52:08 GMT",
+        "time_jst": "2026-11-13T16:52+09:00",
+        "sources": [
+          "Yahoo IT"
+        ],
+        "coverage": 1
+      }
+    ]
+  }
+}
